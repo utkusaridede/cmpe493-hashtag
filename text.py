@@ -1,6 +1,6 @@
 import json
 
-tweets_data_path = 'tweetdata.txt'
+tweets_data_path = '../trash/tweetdata.txt'
 
 tweets_data = []
 tweets_file = open(tweets_data_path, "r")
