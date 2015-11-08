@@ -12,7 +12,7 @@ for line in tweets_file:
         continue
 
 #print len(tweets_data)
-tw = tweets_data[0]
+tw = tweets_data[1]
 tw_text = tw['text']
 print [pos for pos, char in enumerate(tw_text) if char == '#']
 #for tw in tweets_data:
