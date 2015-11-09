@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}[2009/07/27]
 \ProvidesClass{comjnl}
-          [2009/07/27 v0.1c The Computer Journal class (DPC)]
+          [2015/11/08 v0.1c The Computer Thisis]
 \def\CJ@err#1{\ClassError{cj}{#1}\@eha}
 \def\CJ@warn#1{\ClassWarningNoLine{cj}{#1}}
 \DeclareOption{10pt}{}
@@ -427,7 +427,7 @@
   \fi
   \@xsect{#3}}
 \def\journalname{The Computer Journal}
-\def\copyrightname{Oxford University Press}
+\def\copyrightname{Bogazici University Press}
 \def\andname{and}
 \def\ppname{pp}
 \def\numbername{No.\@}
