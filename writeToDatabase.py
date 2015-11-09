@@ -6,7 +6,7 @@ print "[2] CREATE DATABASE"
 
 option = input(" ~ ")
 
-if option == 1:
+if option == 2222:
 
 	conn = sqlite3.connect('tweets.db')
 	
