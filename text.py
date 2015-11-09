@@ -1,5 +1,4 @@
 import json
-import unicodedata
 
 tweets_data_path = '../trash/dataset1.json'
 
