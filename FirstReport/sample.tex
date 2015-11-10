@@ -45,9 +45,33 @@ hashtag analyses keep informed about spesific situations which influence the soc
 
 \section{Introduction}
 A hashtag is defined by any string prefixed with a ``#'', e.g., “#freedomtomark”,
-“#iwould”. The string can be a single word, an acronym, or multiple words joined
-together, and usually identifies the subject topic of the tweet (e.g., “#SPIRE2011 ”)
-or expresses a comment about it (e.g., “#epicwin”).
+“#shesuggest”. The string can be a single word, an acronym, or multiple words joined
+together, and usually identifies the subject topic of the tweet (e.g., “#ENG493”)
+or expresses a comment about it (e.g., “#kappamevku”). We have focused on hashtag
+segmentation. Our first work was using twitter developer tools to extract tweets from
+their database. In the case of hashtag extraction, there are several issues. For instance,
+we have recognized that Turkish people do not understand the usage of hashtag approach.
+Therefore, the formation of corpus becomes difficult. In the field of natural language 
+processing, the main requirement is datasets. It clarifies why there is not enough
+research in Turksih. Improving datasets might help researchers to test their idea and
+modellings. The starting point of project is mainly based upon gathering data to avoid
+backing to drawing point. That is, being blind to quantity of data causes to quit idea.
+Existing methods of word segmentation unsuperwised language models. Researches claim that
+using multiple corpora, the joint probability model from multiple corpora performs significantly 
+better than the individual corpora. Weighted joint probability model, with weights is specific 
+to each corpus. Decent approach is to train the weights in a supervised manner using max-margin 
+methods, that is, a machine learning method to make a decision about the boundries of words.
+The supervised probability models improve segmentation accuracy over joint probability models. 
+Researchers observe that length of segments is an important parameter for word segmentation, and 
+incorporating length-specific weights into our model supports the current model.
+However the length specific models further improve segmentation accuracy over supervised 
+probability models. 
+
+
+
+
+For all models proposed here, inference problem can be solved using the 
+dynamic programming algorithm. We test our methods on five different datasets, two from web domains data, and three from news headlines data from an LDC dataset. The supervised length specific models show significant improvements over unsupervised single corpus and joint probability models. Cross-testing between the datasets confirm that supervised probability models trained on all datasets, and length specific models trained on news headlines data, generalize well. Segmentation of hashtags result in significant improvement in recall on searches for twitter trends. 
 
 
 
