@@ -31,162 +31,23 @@ Bebek 34342, TR} \email{utku.saridede@boun.edu.tr, sevket.topuz@boun.edu.tr}
 Twitter is the latest social networking tool which affects everything related to the person.
 Twitter allows its users to write at most 140 character long update, it is known off as 
 ``tweet''. In this research, analyzing segmentation of tweets is our main objective. There are
-several researches in English, but not that much in Turkish. Study on the Turkish corpus is
-somehow hard to handle, because of the natural language of tools. The usage of the hashtags
+several researches in English, but not that much in Turkish. Studying with the Turkish corpus is
+somehow hard to handle, because Turkish resources are insufficient. The usage of the hashtags
 differ in country to country, that is, some countries do not know off proper usage of hashtag.
 Having more than one word in the hashtag or lapsus calami are misusage and prevent researhes 
 to work properly. The other part of the project is analyzing hashtags in the way of linguistics.
-Analyzed corpus will give more information about related countries.
+Analyzed corpus will give more information about related countries. In the other words, short-term
+hashtag analyses keep informed about spesific situations which influence the society.
 \end{abstract}
 
 \maketitle
 
 
 \section{Introduction}
-
-Computer systems and the Internet have enabled a wide variety of
-automated trading schemes which are in use for stocks,
-commodities, derivatives and other financial instruments. More
-recently, the Internet has also allowed individuals to buy and
-sell various items in an open and easily accessible manner. Thus
-we can envisage a future when large parts of the economy will be
-driven by sequences of automated and interconnected trading
-patterns.
-
-Auctions are a convenient mechanism for formalising the rules with
-which such automating trading schemes can be conducted, and they
-have been widely used for many centuries in human based trading
-and commerce. In recent work the stochastic behaviour of
-collections of bidders acting in an auction has been analysed
-through the use of discrete state-space and continuous time
-probability models~\cite{gelenbe06}. The approach constructs
-stochastic dynamical models of auctions and bidders, and then
-obtains the steady-state behaviour to compute significant
-properties of both the ``one-shot'' outcome, and the long-run
-repetitive outcome of auctions. One-shot properties include the
-probability distribution and the expected sale price, while
-long-term properties include the income per unit time obtained by
-the seller over a large number of transactions.
-In~\cite{gelenbe_inPress} the model has been extended to study a
-network of interconnected auctions, where bidders are allowed to
-move freely between auctions, and an analytical solution has been
-obtained. These mathematical techniques, and their variants, have
-also been successfully deployed in other diverse range of problem
-areas: from biological applications in modelling populations of
-viruses and agents~\cite{Gelenbe-SoftwareViruses}, to
-communication systems in minimising packet travel time across a
-wireless network~\cite{Gelenbe07_DiffModelPacketTravel,
-Gelenbe_06_Workshop_TravelDelay}, and choosing adaptive routing
-decisions~\cite{Gelenbe03_Sensible}.
-
-In reality, knowledge of the existence of opportunity and
-availability to purchase similar goods in the future may influence
-a bidder to choose to forgo the opportunity of procuring a good at
-a high cost, and instead wait in the hope of securing a better
-deal later. We can also imagine situations where goods are
-reusable resources that are not sold per se, but rented out and
-returned to the seller at the end of some period, so that bidder
-agents who are not in urgent need to obtain a good immediately may
-defer a purchase. Interesting work along these lines, where
-bidders exhibit rational forward-looking behaviour when deciding
-strategies for the current auction can be found in
-\cite{zeithammer06}. A possible application for auctions of
-reusable goods in allocating computing resources is given
-in~\cite{gagliano_etal_95}.
-
-When we discuss automated auctions, we will invariably imagine
-software agents representing human counterparts in the digital
-marketplace~\cite{maes99}, acting autonomously and yet guided by
-its design objectives to fulfill the interests of their owners to
-the best possible extent. In such instances it is crucial that the
-underlying communications infrastructure is designed to allow and
-support the user, i.e. the agent, to set the criteria for its
-service requirements. For example, a bidder agent may have certain
-specific needs with respect to its connectivity to the seller, and
-so may request for a network path with the minimum overall delay
-to the seller be established, or an agent physically located on a
-mobile node may prefer a connection that consumes the minimum
-power, or any weighted combination of its other goals. In this
-regard, auctions, or any digital marketplace activity for that
-matter, will benefit from autonomic
-communications~\cite{Dobson_etal_06} where emphasis is placed to
-insulate the user experience and services from changes, whether
-predicted or not, to the underlying infrastructure. In particular,
-a self-aware network, as proposed and implemented in the
-\emph{cognitive packet network}~(CPN)~\cite{Gelenbe_etal_Nagoya,
-Gelenbe_Gellman_Su_ISCC03, Gelenbe-Gellman-Lent-Liu04},
-accomplishes this by online internal probing and measurement
-mechanisms that are used for self-management, so that it adapts
-itself to provide the user the best effort quality of service
-(QoS). The CPN performs these corrective actions by using random
-neural networks with reinforcement
-learning~\cite{Gelenbe_01_CompNetw_CPN, Gelenbe_Mascots02,
-Gelenbe_Lent_Nunez_04}, and finds newer routes with improved QoS
-using genetic algorithms~\cite{Gelenbe_Liu06_workshop,
-Gelenbe_Liu06_GeneticAlgorithmsRouteDiscovery}. In a wireless
-mobile ad hoc network environment, where power efficiency is an
-overriding concern, the CPN has been extended to incorporate
-power-awareness~\cite{Gelenbe-Lent_2004}, and the problem of
-controlling the admission of new users into the network while
-preserving the QoS of all users has been addressed in
-\cite{gelenbe_sakellari_08}.
-
-Beyond ensuring QoS for users, at a different level of
-abstraction, the ongoing research in autonomic communications has
-a broader objective of providing an intelligent platform for
-efficient interaction between digital objects such as users and
-services~\cite{Gelenbe05_UsersServicesIntNetworks}, or as in our
-context between buyer and seller agents. An important aspect of
-applying the ``intelligence'', as discussed in
-\cite{ferdinando_etal08}, is in creating new knowledge based on
-collected raw sensitive data, through a knowledge network which,
-in turn, can be used to enhance economic efficiency. In this
-example, it is shown that a good allocation efficiency can be
-achieved in a trading application where the aggregated knowledge
-is used to create new markets so that sellers can respond to
-buyers' needs as they arise.
-
-
-Security is another vital feature in a communication network,
-especially when transactions involving e-commerce activities such
-as auctions are conducted; the servers running these applications
-are easy targets for attackers, either as a malicious act of
-sabotage or for profitable gains. The denial of service (DoS)
-attack is a particularly critical threat, since it is easy to
-launch, and by its usually distributed nature, difficult to
-protect against. Thus an autonomic approach to defending the
-network, based on self-monitoring and adaptive measures, has been
-suggested in \cite{Gelenbe_Loukas07_SelfAwareDoS}, and several
-biologically inspired DoS detectors have been evaluated in
-\cite{Loukas_Oke_07, Loukas_Oke_LikelihoodRatios,Oke_etal07}.
-
-
-In this paper we extend the work in~\cite{gelenbe06} to study the
-outcome of strategies that a designated bidder may follow in an
-English auction, in the presence of a collection of other bidders,
-under the assumption that this ``special bidder'' (SB) observes
-the parameters resulting from the auction as a collective (many
-bidders and the seller) system. Note that in~\cite{gelenbe06}
-bidders are lumped together in a pool, where everyone shares a
-similar behaviour; whereas in this work we propose a
-generalisation in that the SB is allowed to have its own activity
-(bidding) rate which may differ from the other bidders', and
-examine how the SB should select its bidding rate in a
-self-serving manner.
-
-We first sketch the model to be studied, and then in Section
-\ref{Model} we analyse it in detail. The manner in which the model
-provides performance measures of interest to the SB and to the
-seller, is discussed in Section \ref{Performance} where we first
-discuss how the SB can behave in order to optimise outcomes that
-are in its best interest, and provide  numerical examples to
-illustrate the approach and the model predictions. We then explore
-how the SB can try to achieve balance and compete with the other
-bidders in Section \ref{KeepUp}. Finally Section
-\ref{Price-Dependent} generalises the analysis to the case where
-the bidding rates depend on the current price attained in the
-auction. Conclusions are drawn in Section \ref{Conclusions} where
-we also suggest further work.
+A hashtag is defined by any string prefixed with a ``#'', e.g., “#freedomtomark”,
+“#iwould”. The string can be a single word, an acronym, or multiple words joined
+together, and usually identifies the subject topic of the tweet (e.g., “#SPIRE2011 ”)
+or expresses a comment about it (e.g., “#epicwin”).
 
 
 
