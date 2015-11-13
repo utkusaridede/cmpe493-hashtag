@@ -146,7 +146,7 @@ MACRO {acta} {"Acta Informatica"}
 
 MACRO {cacm} {"Communications of the ACM"}
 
-MACRO {cj} {"The Computer Journal"}
+MACRO {cj} {"The Computer Science"}
 
 MACRO {ibmjrd} {"IBM Journal of Research and Development"}
 

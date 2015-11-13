@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.8)  10 NOV 2015 03:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.8)  11 NOV 2015 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,6 +8,9 @@ LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (./comjnl.cls
 Document Class: comjnl 2015/11/08 v0.1c The Computer Thisis
+
+Class cj Warning: 10pt used (not optional).
+
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -166,23 +169,26 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
-) (./sample.aux)
+) (./sample.aux
+
+LaTeX Warning: Label `fig:Tweet' multiply defined.
+
+)
 \openout1 = `sample.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count112
 \scratchdimen=\dimen116
@@ -247,82 +253,32 @@ caffil not> 1
 
 Class cj Warning: No accepted date.
 
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
 
-LaTeX Warning: Citation `gelenbe06' on page 1 undefined on input line 63.
-
-
-LaTeX Warning: Citation `gelenbe_inPress' on page 1 undefined on input line 71.
-
-
-
-LaTeX Warning: Citation `Gelenbe-SoftwareViruses' on page 1 undefined on input 
-line 77.
-
-
-LaTeX Warning: Citation `Gelenbe07_DiffModelPacketTravel' on page 1 undefined o
-n input line 80.
-
-
-LaTeX Warning: Citation `Gelenbe_06_Workshop_TravelDelay' on page 1 undefined o
-n input line 80.
-
-
-LaTeX Warning: Citation `Gelenbe03_Sensible' on page 1 undefined on input line 
-81.
-
-
-LaTeX Warning: Citation `zeithammer06' on page 1 undefined on input line 94.
-
-
-LaTeX Warning: Citation `gagliano_etal_95' on page 1 undefined on input line 96
-.
-
-
-LaTeX Warning: Citation `maes99' on page 1 undefined on input line 100.
-
-
-LaTeX Warning: Citation `Dobson_etal_06' on page 1 undefined on input line 113.
-
-
-
-LaTeX Warning: Citation `Gelenbe_etal_Nagoya' on page 1 undefined on input line
- 118.
-
-
-LaTeX Warning: Citation `Gelenbe_Gellman_Su_ISCC03' on page 1 undefined on inpu
-t line 118.
-
-
-LaTeX Warning: Citation `Gelenbe-Gellman-Lent-Liu04' on page 1 undefined on inp
-ut line 118.
-
-
-LaTeX Warning: Citation `Gelenbe_01_CompNetw_CPN' on page 1 undefined on input 
-line 125.
-
-
-LaTeX Warning: Citation `Gelenbe_Mascots02' on page 1 undefined on input line 1
-25.
-
-
-LaTeX Warning: Citation `Gelenbe_Lent_Nunez_04' on page 1 undefined on input li
-ne 125.
-
-
-LaTeX Warning: Citation `Gelenbe_Liu06_workshop' on page 1 undefined on input l
-ine 127.
-
-
-LaTeX Warning: Citation `Gelenbe_Liu06_GeneticAlgorithmsRouteDiscovery' on page
- 1 undefined on input line 127.
-
-
-LaTeX Warning: Citation `Gelenbe-Lent_2004' on page 1 undefined on input line 1
-30.
-
-
-LaTeX Warning: Citation `gelenbe_sakellari_08' on page 1 undefined on input lin
-e 133.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -331,143 +287,87 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-
-LaTeX Warning: Citation `Gelenbe05_UsersServicesIntNetworks' on page 2 undefine
-d on input line 139.
-
-
-LaTeX Warning: Citation `ferdinando_etal08' on page 2 undefined on input line 1
-42.
-
-
-LaTeX Warning: Citation `Gelenbe_Loukas07_SelfAwareDoS' on page 2 undefined on 
-input line 160.
-
-
-LaTeX Warning: Citation `Loukas_Oke_07' on page 2 undefined on input line 162.
-
-
-LaTeX Warning: Citation `Loukas_Oke_LikelihoodRatios' on page 2 undefined on in
-put line 162.
-
-
-LaTeX Warning: Citation `Oke_etal07' on page 2 undefined on input line 162.
-
-
-LaTeX Warning: Citation `gelenbe06' on page 2 undefined on input line 165.
-
-
-LaTeX Warning: Citation `gelenbe06' on page 2 undefined on input line 170.
-
-
-LaTeX Warning: Citation `gelenbe06' on page 2 undefined on input line 201.
-
-
-LaTeX Warning: Citation `gelenbe06' on page 2 undefined on input line 219.
-
-[2]
-
-LaTeX Warning: Citation `krishna02' on page 3 undefined on input line 236.
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 261.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 261.
-
-Overfull \hbox (2.62157pt too wide) in paragraph at lines 334--334
-[] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3]
-[4]
-
-LaTeX Warning: Citation `roth02' on page 5 undefined on input line 570.
-
-
-LaTeX Warning: Citation `ockenfels06' on page 5 undefined on input line 570.
-
-
-LaTeX Warning: Citation `bajari03' on page 5 undefined on input line 570.
-
-
-LaTeX Warning: Citation `ockenfels06' on page 5 undefined on input line 588.
-
-
-Overfull \hbox (4.85254pt too wide) in paragraph at lines 596--596
-[][]\OT1/cmr/m/n/8 See \OT1/cmr/m/it/8 http://www.amazon.co.uk/gp/help/customer
-/display.html
- []
-
-[5]
-
-LaTeX Warning: Citation `gelenbe06' on page 6 undefined on input line 704.
-
-[6]
-Overfull \hbox (1.20378pt too wide) in paragraph at lines 763--763
-[] 
- []
-
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ≠ in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ≠ in font cmr10!
+ [2]
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ≠ in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ≠ in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ≠ in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ≠ in font cmr10!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+<tweet.png, id=15, 760.8425pt x 31.11626pt>
+File: tweet.png Graphic file (type png)
+ <use tweet.png>
+Package pdftex.def Info: tweet.png used on input line 138.
+(pdftex.def)             Requested size: 252.94499pt x 10.34483pt.
 
-LaTeX Warning: Citation `popenda87' on page 7 undefined on input line 768.
+Overfull \hbox (12.94499pt too wide) in paragraph at lines 138--139
+ [][] 
+ []
+
+<text.png, id=16, 992.70876pt x 387.4475pt>
+File: text.png Graphic file (type png)
+ <use text.png>
+Package pdftex.def Info: text.png used on input line 148.
+(pdftex.def)             Requested size: 252.94499pt x 98.71799pt.
+
+Overfull \hbox (12.94499pt too wide) in paragraph at lines 148--149
+ [][] 
+ []
+
+<hashtag.png, id=17, 990.70125pt x 390.45876pt>
+File: hashtag.png Graphic file (type png)
+ <use hashtag.png>
+Package pdftex.def Info: hashtag.png used on input line 157.
+(pdftex.def)             Requested size: 252.94499pt x 99.68779pt.
+
+Overfull \hbox (12.94499pt too wide) in paragraph at lines 157--158
+ [][] 
+ []
 
 
-LaTeX Warning: Citation `mallik97' on page 7 undefined on input line 768.
+Underfull \vbox (badness 8075) has occurred while \output is active []
 
-
-LaTeX Warning: Citation `boese02' on page 7 undefined on input line 768.
-
-
-LaTeX Warning: Citation `hillier64' on page 7 undefined on input line 843.
-
-[7]
+ [3 <./tweet.png> <./text.png> <./hashtag.png>]
 No file sample.bbl.
-[8] (./sample.aux)
+[4
 
-LaTeX Warning: There were undefined references.
+] (./sample.aux)
+
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2558 strings out of 493304
- 33851 string characters out of 6139871
- 114134 words of memory out of 5000000
- 5979 multiletter control sequences out of 15000+600000
- 11293 words of font info for 40 fonts, out of 8000000 for 9000
+ 2475 strings out of 493304
+ 32541 string characters out of 6139871
+ 101019 words of memory out of 5000000
+ 5911 multiletter control sequences out of 15000+600000
+ 6553 words of font info for 24 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,21n,23p,310b,239s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,9n,23p,333b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti9.pfb>
-Output written on sample.pdf (8 pages, 303744 bytes).
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmti9.pfb>
+Output written on sample.pdf (4 pages, 327230 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 48 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -197,8 +197,8 @@
       \relax}}%
   \def\@oddfoot{%
     \CJ@ruledhead\relax{%
-       \textsc\journalname,\quad\volumename\space\@volumenumber,\quad
-         \numbername\space\@issuenumber,\quad\@volumeyear}\relax}%
+       \textsc\journalname\quad\volumename\space\@volumenumber\quad
+         \numbername\space\@issuenumber\quad\@volumeyear}\relax}%
   \let\@evenfoot\@oddfoot}
 \def\ps@title{%
   \def\@oddhead{%
@@ -209,8 +209,8 @@
   \let\@evenhead\@oddhead
     \def\@oddfoot{%
     \CJ@ruledhead\relax{%
-       \textsc\journalname,\quad\volumename\space\@volumenumber,\quad
-         \numbername\space\@issuenumber,\quad\@volumeyear}\relax}%
+       \textsc\journalname\quad\volumename\space\@volumenumber\quad
+         \numbername\space\@issuenumber\quad\@volumeyear}\relax}%
   \let\@evenfoot\@oddfoot}
 \def\CJ@ruledhead#1#2#3{%
   \vbox{%
@@ -222,9 +222,9 @@
       \llap{#3}}%
     \hrule\@height.5pt}}
 \ps@cj
-\def\@volumeyear{????}
-\def\@volumenumber{??}
-\def\@issuenumber{??}
+\def\@volumeyear{}
+\def\@volumenumber{}
+\def\@issuenumber{}
 \def\@startpage{\pageref{FirstPage}}
 \def\@endpage{\pageref{LastPage}}
 \def\volumeyear#1{\gdef\@volumeyear{#1}}
@@ -426,12 +426,12 @@
     \def\@svsechd{#4{\hskip #1\relax #5}}%
   \fi
   \@xsect{#3}}
-\def\journalname{The Computer Journal}
+\def\journalname{The Computer Science}
 \def\copyrightname{Bogazici University Press}
-\def\andname{and}
-\def\ppname{pp}
-\def\numbername{No.\@}
-\def\volumename{Vol.\@}
+\def\andname{}
+\def\ppname{}
+\def\numbername{}
+\def\volumename{Vol.1}
 
 %extra macros
 
