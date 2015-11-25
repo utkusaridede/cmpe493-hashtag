@@ -29,5 +29,11 @@ if __name__ == '__main__':
     auth.set_access_token(access_token, access_token_secret)
     stream = Stream(auth, l)
 
-    #This line filter Twitter Streams to capture data by the keywords: 'python', 'javascript', 'ruby'
-    stream.filter(track = ["#"], languages=["tr"])
+    stream.filter(track = ["bir","bu","ne","ve","ben","de","evet","var","ama","da",
+        "sen","daha","bana","kadar","seni","beni","iyi","tamam","onu","bunu","gibi",
+        "yok","benim","her","sana","ki","sadece","neden","burada","senin","ya","zaman",
+        "sonra","en","mu","misin","hadi","biraz","musun","ona","bak","oldu","hey","istiyorum",
+        "geri","onun","bile","kim","bay","yani","bilmiyorum","buraya","belki","peki","olarak",
+        "tek","efendim","biri","haydi","olur","et","olacak","olan","adam","merhaba","orada",
+        "herhalde","biz","demek","bilmiyorum","gece","ederim"], languages=["tr"])
+    #stream.filter(locations=[25.40,44.48,35.51,42.06])
