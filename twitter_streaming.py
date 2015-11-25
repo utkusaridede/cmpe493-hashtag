@@ -35,5 +35,8 @@ if __name__ == '__main__':
         "sonra","en","mu","misin","hadi","biraz","musun","ona","bak","oldu","hey","istiyorum",
         "geri","onun","bile","kim","bay","yani","bilmiyorum","buraya","belki","peki","olarak",
         "tek","efendim","biri","haydi","olur","et","olacak","olan","adam","merhaba","orada",
-        "herhalde","biz","demek","bilmiyorum","gece","ederim"], languages=["tr"])
+        "herhalde","biz","demek","bilmiyorum","gece","ederim","olmak","o","yapmak","almak",
+        "kendi","gelmek","ile","vermek","sonra","insan","iki","el","istemek","ara","son","ilk",
+        "veya","bunlar","ancak","yemek","su","girmek","orta","yan","durum","gerekmek","bulunmak",
+        "ise","diye","ev"], languages=["tr"])
     #stream.filter(locations=[25.40,44.48,35.51,42.06])
