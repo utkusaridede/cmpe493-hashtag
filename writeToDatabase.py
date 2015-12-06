@@ -54,39 +54,41 @@ if option == 1:
 			continue
 
 	for tw in tweets_data:
-		tw_text = tw['text']
-		tw_text = tw_text.replace('\n', ' ')
-		tw_text = tw_text + ' '
-		tw_id = tw['id']
+		if not 'limit' in tw:
+			tw_text = tw['text']
+			if not tw_text.startswith('RT'):
+				tw_text = tw_text.replace('\n', ' ')
+				tw_text = tw_text + ' '
+				tw_id = tw['id']
 
-		insertToTexts(tw_id,tw_text)
+				insertToTexts(tw_id,tw_text)
 
-		hash_index = [pos for pos, char in enumerate(tw_text) if char == '#']
-		space_index = [pos for pos, char in enumerate(tw_text) if char == ' ']
+				hash_index = [pos for pos, char in enumerate(tw_text) if char == '#']
+				space_index = [pos for pos, char in enumerate(tw_text) if char == ' ']
 
-		spaceCounter = 0
-		for i in range(0,len(hash_index)):
-			for k in range(0,len(space_index)):
+				spaceCounter = 0
+				for i in range(0,len(hash_index)):
+					for k in range(0,len(space_index)):
 
-				if i < len(hash_index)-1:
-					if hash_index[i+1] > space_index[spaceCounter] and hash_index[i] > space_index[spaceCounter]:
-						spaceCounter += 1
-					elif hash_index[i+1] > space_index[spaceCounter] and hash_index[i] < space_index[spaceCounter]:
-						hashtag = tw_text[hash_index[i]+1:space_index[spaceCounter]]
-						if len(hashtag) != 0:
-							insertToHashtags(tw_id,hashtag)
-						break
-					else:
-						hashtag = tw_text[hash_index[i]+1:hash_index[i+1]]
-						if len(hashtag) != 0:
-							insertToHashtags(tw_id,hashtag)
-						break
-				else:
-					if hash_index[i] > space_index[spaceCounter]:
-						spaceCounter += 1
-					else:
-						hashtag = tw_text[hash_index[i]+1:space_index[spaceCounter]]
-						if len(hashtag) != 0:
-							insertToHashtags(tw_id,hashtag)
-						break
+						if i < len(hash_index)-1:
+							if hash_index[i+1] > space_index[spaceCounter] and hash_index[i] > space_index[spaceCounter]:
+								spaceCounter += 1
+							elif hash_index[i+1] > space_index[spaceCounter] and hash_index[i] < space_index[spaceCounter]:
+								hashtag = tw_text[hash_index[i]+1:space_index[spaceCounter]]
+								if len(hashtag) != 0:
+									insertToHashtags(tw_id,hashtag)
+								break
+							else:
+								hashtag = tw_text[hash_index[i]+1:hash_index[i+1]]
+								if len(hashtag) != 0:
+									insertToHashtags(tw_id,hashtag)
+								break
+						else:
+							if hash_index[i] > space_index[spaceCounter]:
+								spaceCounter += 1
+							else:
+								hashtag = tw_text[hash_index[i]+1:space_index[spaceCounter]]
+								if len(hashtag) != 0:
+									insertToHashtags(tw_id,hashtag)
+								break
 conn.close()
