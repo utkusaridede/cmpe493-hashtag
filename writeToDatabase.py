@@ -12,13 +12,13 @@ conn = sqlite3.connect('tweets.db')
 def insertToTexts(docId, body):
 
 	c = conn.cursor()
-	c.execute('insert into TEXTS values (?,?)', (docId, body))
+	c.execute('insert or ignore into TEXTS values (?,?)', (docId, body))
 	conn.commit()
 
 def insertToHashtags(docId, hasht):
 
 	c = conn.cursor()
-	c.execute('insert into HASHTAGS values (?,?)', (docId, hasht))
+	c.execute('insert or ignore into HASHTAGS values (?,?)', (docId, hasht))
 	conn.commit()
 
 if option == 2:
@@ -29,7 +29,7 @@ if option == 2:
 
 	conn.execute('''CREATE TABLE HASHTAGS
 	       (ID INT     NOT NULL,
-	       HASHTAG     CHAR(100));''')
+	       HASHTAG CHAR(100) UNIQUE);''')
 
 	print "Table created successfully";
 
@@ -63,6 +63,27 @@ if option == 1:
 
 				insertToTexts(tw_id,tw_text)
 
+				space_index = [pos for pos, char in enumerate(tw_text) if char == ' ']
+
+				counter = 0
+				for k in range(0,len(space_index)):
+
+					string = tw_text[counter:space_index[k]]
+					if string.startswith('#'):
+						string = string[1:]
+						if len(string) == 0:
+							break
+						if '#' in string:
+							break
+						if string.startswith('_') and len(string) < 2:
+							break
+						
+						insertToHashtags(tw_id,hashtag)
+					break
+					
+conn.close()
+
+'''
 				hash_index = [pos for pos, char in enumerate(tw_text) if char == '#']
 				space_index = [pos for pos, char in enumerate(tw_text) if char == ' ']
 
@@ -91,4 +112,4 @@ if option == 1:
 								if len(hashtag) != 0:
 									insertToHashtags(tw_id,hashtag)
 								break
-conn.close()
+'''
