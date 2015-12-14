@@ -65,6 +65,7 @@ if option == 1:
 
 			insertToTexts(tw_id,tw_text)
 
+<<<<<<< HEAD
 			space_index = [pos for pos, char in enumerate(tw_text) if char == ' ']
 
 			counter = 0
@@ -92,6 +93,26 @@ if option == 1:
 						counter = space_index[k] + 1
 				else:
 					counter = space_index[k] + 1
+=======
+				space_index = [pos for pos, char in enumerate(tw_text) if char == ' ']
+
+				counter = 0
+				for k in range(0,len(space_index)):
+
+					string = tw_text[counter:space_index[k]]
+					if string.startswith('#'):
+						string = string[1:]
+						if len(string) == 0:
+							break
+						if '#' in string:
+							break
+						if string.startswith('_') and len(string) < 2:
+							break
+						
+						insertToHashtags(tw_id,hashtag)
+					break
+					
+>>>>>>> b52e157bf59c2008ae6bbdce92c72bce688605b8
 conn.close()
 
 '''
