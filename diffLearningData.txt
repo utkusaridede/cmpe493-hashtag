@@ -1,0 +1,836 @@
+19c19
+< Melik-gazi-Belediyesi-besk
+---
+> Melikgazi-Belediyesi-besk
+26c26
+< En-Değerlim-BEŞİK-TAŞ
+---
+> En-Değerlim-BEŞİKTAŞ
+45c45
+< Hacıosmanoğlu-Gururumuzdur
+---
+> Hacı-osman-oğlu-Gururumuzdur
+61,62c61,62
+< Marka-Ankaragücüdür
+< kütüphanem-1000-kitap-tasaklı
+---
+> Marka-Ankara-gücüdür
+> kütüphanem-1000-kitapta-saklı
+73c73
+< Bu-gün-Günlerden-Vahap
+---
+> Bugün-Günlerden-Vahap
+76c76
+< Bu-gün-Günlerden-Hayat-Mucizelere-Gebe
+---
+> Bugün-Günlerden-Hayat-Mucizelere-Gebe
+79c79
+< galibiyetle-pazarkeyfi
+---
+> galibiyetle-pazar-keyfi
+84c84
+< Ak-bank-Direkt-Mobil
+---
+> Akbank-Direkt-Mobil
+91c91
+< *Paris-Saint-Germain
+---
+> Paris-SaintGermain
+94,95c94,95
+< ultrA-aslan-UNI-Çankaya
+< psikoterapi-istanbul
+---
+> ultrAslan-UNI-Çankaya
+> psikoterap-istanbul
+99c99
+< Muhtesem-Yüzyıl-Kösem
+---
+> Muhtesem-Yuez-yıl-Koesem
+101c101
+< Seni-Seviyorum-Çünkü
+---
+> Seni-Seviyorum-Cuenkue
+104c104
+< İman-Varsa-İmkan-da-Vardır
+---
+> İman-Varsa-İmkanda-Vardır
+106,107c106,107
+< genc-ıspartada
+< Muhtesem-yuzyil-kosem
+---
+> genc-yydnijer-ıspartada
+> Muhtesem-yuz-yil-kosem
+109c109
+< *pray-for-azerbaijan
+---
+> pray-for-azerbaijan
+111c111
+< Ushanistlerin-Bi-tanesi
+---
+> Ushanistlerin-Bitanesi
+124,125c124,125
+< Big-Brother-Türkiye
+< PKK-Takiplesiyor
+---
+> BigBrother-Türkiye
+> PKKliler-Takiplesiyor
+130,131c130,131
+< *physical-therapist
+< nerede-AK-orada-FUCK
+---
+> physical-therapist
+> nerede-AK-_-orada-FUCK
+135c135
+< *neighborhoods-hero
+---
+> neighborhoods-hero
+140c140
+< Elveda-Güzel-Vatanım
+---
+> Elveda-Guezel-Vatanım
+145c145
+< Kaderimin-Yazıldığı-Gün
+---
+> Kaderimin-Yazıldığı-Guen
+148c148
+< Gaziantep-spor-Fener-bahçe
+---
+> Gaziantepspor-_-Fenerbahçe
+160c160
+< *PrayForAzerbaijan
+---
+> Pray-For-Azerbaijan
+163c163
+< Seni-Seviyorum-Çünkü
+---
+> Seni-Seviyorum-Çünki
+170,172c170,172
+< Cağrı-Merkezi-Bölümüne-500-atama
+< *Leyla-Lydia-Tuğutlu
+< *Adriatic-ABA-league
+---
+> Cağrı-Merkezi-Boeluemuene-500-atama
+> Leyla-Lydia-Tuğutlu
+> Adriatic-ABA-league
+174c174
+< *art-basel-miami-2015
+---
+> artbasel-miami-2015
+183c183
+< kadın-objed-eğildir
+---
+> kadın-obje-değildir
+186c186
+< *Pray-for-Azerbaijan
+---
+> Pray-for-Azerbaijan
+188c188
+< Karadayi
+---
+> Karadayi-En-LaNoche
+191,192c191,192
+< Göztepenin-Macı-Var
+< *essportometrocity
+---
+> Goeztepenin-Macı-Var
+> essporto-metrocity
+200,201c200,201
+< hayatımın-kitabı-ve-cümlesi
+< *You-Aint-No-Muslim-Bruv
+---
+> hayatımın-kitabı-ve-cuemlesi
+> You-Aint-No-Muslim-Bruv
+205c205
+< *ViajamosAJaponLPM
+---
+> Viajamos-A-Japon-LPM
+211c211
+< kar-istiyoruz-istanbul
+---
+> karistiyoruz-istanbul
+213,214c213,214
+< Lider-Fener-bahcemde
+< *American-Horror-Story
+---
+> Lider-Fenerbahcemde
+> American-Horror-Story
+216,217c216,217
+< *JauchzetFrohlocket
+< Can-Dündar-Erdem-Gül-Yalnız-Değildir
+---
+> Jauchzet-Frohlocket
+> Can-Duendar-Erdem-Guel-Yalnız-Değildir
+219c219
+< Şam-verdi-Kardeşler
+---
+> Şamverdi-Kardeşler
+229c229
+< Akp-Barış-Dedi-Savaş-Getirdi
+---
+> Akp-Barış-Dedi-Savaş-Ge
+239c239
+< *Happy-Birthday-Hagrid
+---
+> Happy-Birthda-yHagrid
+248c248
+< bu-gün-günlerden-Oğulcan-Ezber
+---
+> bugün-günlerden-Oğulcan-Ezber
+257c257
+< *PaulaFernandesNoEs
+---
+> Paula-Fernandes-NoEs
+259c259
+< Seni-Her-Şeye-Rağmen-Seviyorum
+---
+> Seni-HerŞeye-Rağmen-Seviyorum
+267c267
+< *elections-regional-es-2015
+---
+> elections-region-ales-2015
+273c273
+< allah-ne-derse-o-olur
+---
+> allah-ne-derse-oolur
+276,277c276,277
+< *Come-To-Beşiktaş-Ospina
+< SGDF-nin-Yanındayız
+---
+> Come-To-Beşiktaş-Ospina
+> SGDFnin-Yanındayız
+285c285
+< big-brother-Türkiye
+---
+> bigbrother-Türkiye
+293c293
+< Bu-gün-Günlerden-Fener-bahçe
+---
+> Bugün-Günlerden-Fenerbahçe
+297c297
+< 5-Aralık-Dünya-KadınHakları-Gününe
+---
+> 5-Aralık-Dünya-Kadın-Hakları-Gününe
+302c302
+< Mezarına-Tüküreceğim
+---
+> Mezarına-Tüküreceğim-3
+311c311
+< İsyan-Meşrudur-TABİ-Kİ
+---
+> İsyan-Meşrudur-TABİKİ
+330c330
+< günlerden-fener-bahçe
+---
+> günlerden-fenerbahçe
+338,339c338,339
+< ilici-ozur-grubu-ilce-emri-istiyor
+< Bu-gün-Günlerden-Rize-spor
+---
+> il-ici-ozur-grubu-il-ceemr-iistiyor
+> Bugün-Günlerden-Rizespor
+342,343c342,343
+< Vatan-SavunmakSa-Nefsi-Müdafadır
+< fikret-yüksel-vakfı
+---
+> Vatan-SavunmakSa-_-Nefsi-Müdafadır
+> fikret-yükselv-akfı
+347c347
+< Rakibimiz-Gaziantep-spor
+---
+> Rakibimiz-Gaziantepspor
+351c351
+< merve-aydin-fan-clup
+---
+> merve-aydin-fanclup
+354,355c354,355
+< *Voto-Party-Opositor
+< *VenezolanosEnBuscaDelCambio
+---
+> Voto-Party-Opositor
+> Venezolanos-En-Busca-DelCambio
+359,360c359,360
+< Düğün-Dernek-Sünnet
+< Obradovic-in-Askerleriyiz
+---
+> Dueğuen-Dernek-Suennet
+> Obradovicin-Askerleriyiz
+365c365
+< Düğün-Dernek-Sünnet
+---
+> Düğün-Dernek-2-Sünnet
+367,368c367,368
+< Adana-Demir-sporludur
+< Bugün-Günlerden-Ankara-gücü
+---
+> Adana-Demirsporludur
+> Bugün-Günlerden-Ankaragücü
+370c370
+< kerimcan-durmaz-replik-times
+---
+> kerim-can-durmaz-replik-times
+393c393
+< Düğün-Dernek-sünnet
+---
+> Düğün-Dernek-2-sünnet
+396c396
+< vitor-pereira-İSTİFA
+---
+> vitorpereira-İSTİFA
+403c403
+< *Hunger-Games-Mocking-JayPartT
+---
+> Hunger-Games-Mocking-Jay-PartT
+412,413c412,413
+< yiyip-tekil-olamayan-kız
+< Küfürere-Hayır-Diyorum
+---
+> yiyip-tekilo-alamayan-kız
+> Küfüre-re-Hayır-Diyorum
+416c416
+< *Secret-Love-Song-Single
+---
+> Secret-Love-Song-Single
+418c418
+< KanalD-Haber-Günaydın
+---
+> Kanal-D-Haber-Günaydın
+429c429
+< hayde-gidelim-hayde
+---
+> hayde-gidrlum-hayde
+433c433
+< En-Değerlim-Beşik-taş
+---
+> En-Değerlim-Beşiktaş
+444c444
+< Tek-aşk-GALATA-SARAY
+---
+> Tek-aşk-GALATASARAY
+459,460c459,460
+< *Call-Of-Duty-BlackOps-3
+< bu-gün-günlerden-pazar
+---
+> Call-Of-Duty-Black-Ops-3
+> bugün-günlerden-pazar
+469,470c469,470
+< ydgh-defol-hendekleri-kapat
+< big-brother-türkiye
+---
+> ydgh-_-defol-_-hendekleri-_-kapat
+> bigbrother-türkiye
+477c477
+< Burger-King-Yemiyoruz
+---
+> BurgerKing-Yemiyoruz
+483c483
+< Fener-bahçe-Yıkılmaz
+---
+> Fenerbahçe-Yıkılmaz
+488c488
+< Besik-tasın-Macı-Var
+---
+> Besiktasın-Macı-Var
+491c491
+< *McDuduzinhonoProgramadaELIANA
+---
+> Mc-Duduzinhono-Programada-ELIANA
+493c493
+< Çeyizlik-ElIşi-Yemeni-Modelleri
+---
+> Çeyizlik-El-Işi-Yemeni-Modelleri
+503,504c503,504
+< *pray-for-Azerbaijan
+< Tebrikler-Fener-bahçe
+---
+> pray-for-Azerbaijan
+> Tebrikler-Fenerbahçe
+522,524c522,524
+< leyla-ile-mecnun-özledik
+< ebrushka-ile-yeni-yıl-partisi
+< Fener-bahcenin-Macı-Var
+---
+> leyla-ile-mecnun-öledik
+> ebru-shka-ile-yeni-yıl-partisi
+> Fenerbahcenin-Macı-Var
+538c538
+< Yusufilere-Özgürlük-İstiyoruz
+---
+> Yusuf-ilere-Özgürlük-İstiyoruz
+542c542
+< saygıdeğer-insanlar
+---
+> saygı-değer-insanlar
+544c544
+< *Selective-Catalytic-Reduction
+---
+> Selective-Catalytic-Reduction
+556c556
+< PDRye-3000-Kadro-Haktır
+---
+> PDR-ye-3000-Kadro-Haktır
+559,561c559,561
+< takip-edeni-ederim
+< enminnoş-oda-arkadaşı
+< İŞSİZ-İş-ve-Meslek-Danışmanları-NeZaman-ATANACAK
+---
+> takip-edeni-ederimm
+> en-minnoş-oda-arkadaşı
+> İŞSİZİ-ş-ve-Meslek-Danışmanları-Ne-Zaman-ATANACAK
+563c563
+< *Pretty-Little-Liars
+---
+> Pretty-Little-Liars
+572,573c572,573
+< sen-ben-yok-besik-tas-var
+< Fener-bahçenin-Gururu
+---
+> sen-ben-yok-besiktas-var
+> Fenerbahçenin-Gururu
+578c578
+< acayip-insanlar-var
+---
+> acayip-nsanlar-var
+582c582
+< Şu-An-En-Çok-İstediğim
+---
+> ŞuAn-En-Çok-İstediğim
+584,585c584,585
+< Bu-Gün-de-Her-zaman-ki-Gibi
+< bu-gün-günlerden-arrive-derci
+---
+> BuGün-de-Her-zaman-ki-Gibi
+> bugün-günlerden-arrivederci
+588c588
+< Vaktiyle-Bir-Atsız-Varmıs-Var-Olsun
+---
+> Vaktiyle-Bir-Atsız-Varmıs-VarOlsun
+592,594c592,594
+< Vaktiyle-Bir-Atsız-Varmış-Var-Olsun
+< *AllahııımmGooooollll
+< Vaktiyle-bir-Atsız-varmış-Var-Olsun
+---
+> Vaktiyle-Bir-Atsız-Varmış-VarOlsun
+> Allahııımm-Gooooollll
+> Vaktiyle-bir-Atsız-varmış-VarOlsun
+596c596
+< Vaktiyle-BirAtsız-Varmıs-VAROLSUN
+---
+> Vaktiyle-Bir-Atsız-Varmıs-VAROLSUN
+598,600c598,600
+< GENÇ-FENER-BAHÇELİLER
+< hikayem-paramparça
+< Su-An-En-Cok-İstediğim
+---
+> GENÇ-FENERBAHÇELİLER
+> hikayem-param-parça
+> SuAn-En-Cok-İstediğim
+608c608
+< Yozgat-Kocaeli-Elele
+---
+> Yozgat-Kocaeli-Elele-3
+611c611
+< Bugünde-Her-zamanki-Gibi
+---
+> Bugün-de-Her-zaman-ki-Gibi
+617c617
+< tebrikler-Beşik-taşım
+---
+> tebrikler-Beşiktaşım
+629,631c629,631
+< vaktiyle-bir-atsız-varmış-var-olsun
+< Bu-Günlerden-Kiralık-Aşk
+< *oooofffulanooooofffffline
+---
+> vaktiyle-bir-atsız-varmış-varolsun
+> BuGünlerden-Kiralık-Aşk
+> oooofff-ulan-ooooofffffline
+633c633
+< hayat-kısalınca-lider
+---
+> hayat-kısa-inca-lider
+636,638c636,638
+< muhtesem-yuzyil-kosem
+< Genc-Fener-bahceliler
+< Diren-Eski-şehir-spor
+---
+> muhtesem-yuz-yil-kosem
+> Genc-Fenerbahceliler
+> Diren-Eskişehirspor
+640c640
+< 10-Aralık-Dünya-İnsan-Hakları-Günü
+---
+> 10-Aralık-Duenya-İnsan-Hakları-Guenue
+642c642
+< *Bangtanseonyeondan
+---
+> Bangtanse-on-ye-ondan
+645c645
+< *Michelin-Climate-Hero
+---
+> Michelin-Climate-Hero
+649c649
+< big-brother-tuerkiye
+---
+> bigbrother-tuerkiye
+652,653c652,653
+< Big-Brother-Turkiye
+< bütün-kızlar-toplandık
+---
+> BigBrother-Turkiye
+> bütün-kazlar-toplandık
+655c655
+< Şu-An-En-Çok-İstediğim-ŞU
+---
+> ŞuAn-En-Çok-İstediğim-ŞU
+657,658c657,658
+< Bu-gün-Günlerden-Hasan-Sevme
+< su-an-en-cok-istedigim
+---
+> Bugün-Günlerden-Hasan-Sevme
+> suan-en-cok-istedigim
+664,667c664,667
+< Bug-un-Günlerden-Medcezir
+< Bu-gun-Günlerden-Yamira
+< *SouhilaBenLachhab
+< *Mozartin-the-Jungle
+---
+> Bugun-Günlerden-Medcezir
+> Bugun-Günlerden-Yamira
+> Souhila-Ben-Lachhab
+> Mozartinthe-Jungle
+675,676c675,676
+< Vaktiyle-Bir-Atsız-Varmış-var-olsun
+< ak-gençlik-ümraniye-sahada
+---
+> Vaktiyle-Bir-Atsız-Varmış-varolsun
+> akgençlik-ümraniye-sahada
+679c679
+< Düşler-Gercek-Olsun
+---
+> Duesler-Gercek-Olsun
+682c682
+< benim-2016-ya-mesajim-var
+---
+> menim-2016-ya-mesajim-var
+684c684
+< Bu-Günde-Her-zamanki-Gibi
+---
+> BuGuende-Her-zaman-ki-Gibi
+686,687c686,687
+< *MelleMistefaBarzan
+< Şu-An-En-Cok-İstediğim
+---
+> Melle-Mistefa-Barzan
+> ŞuAn-En-Cok-İstediğim
+696c696
+< Vaktiyle-Bir-Atsız-Varmış-Var-Olsun
+---
+> Vatiyle-Bir-Atsız-Varmış-Var-Olsun
+699c699
+< *Pro2FMGreatComposerAlb
+---
+> Pro-2-FM-Great-Composer-Alb
+701,703c701,703
+< İşte-Benim-Stilim-All-Star
+< Fener-bahçelı-Olmak-Gurur
+< Su-An-En-Cok-Istedigim
+---
+> İşte-Benim-Stilim-AllStar
+> Fenerbahçelı-Olmak-Gurur
+> SuAn-En-Cok-Istedigim
+709c709
+< *Young-Frankenstein
+---
+> Young-Frankenstein
+711c711
+< şu-an-en-çok-istediğim
+---
+> şuan-en-çok-istediğim
+713,714c713,714
+< Trabzon-spor-Tataftarı-Yanında-Tolga-Zengin
+< *mododespreocupado
+---
+> Trabzonspor-Tataftarı-Yanında-Tolga-Zengin
+> mododespreocupado
+721,722c721,722
+< mustafa-kemal-ata-türk
+< *my-favourite-colour-is-blue
+---
+> mustafa-kemal-atatürk
+> my-favourite-colour-is-blue
+725c725
+< Galata-saray-Juventus
+---
+> Galatasaray-Juventus
+727,728c727,728
+< *The-Division-Of-Gravity
+< Şu-anki-Ruh-Halim-Hayatın
+---
+> The-Division-Of-Gravity
+> Şuan-ki-Ruh-Halm-Hayatın
+730,731c730,731
+< Bu-gün-Günlerden-Allahım-Gooool
+< tilemirde-kurt-katliami
+---
+> Bugün-Günlerden-Allahım-Gooool
+> til-emirde-kurt-katliami
+736c736
+< *Supernatural-Mid-Season-Finale
+---
+> Super-natural-MidSeason-Finale
+745,746c745,746
+< *Bismillahirrahmanirrahim
+< Bursa-sporun-Maçi-Var
+---
+> Bismillahirrahmanirrahim
+> Bursasporun-Maçi-Var
+750c750
+< Abdurrahim-Kara-koç
+---
+> Abdurrahim-Karakoç
+752c752
+< *ALDUBMaiDenMoment
+---
+> ALDUB-MaiDen-Moment
+759,760c759,760
+< Çarşı-Namussuzluğa-Karşı-Değil-mi
+< *big-brother-turkiye
+---
+> Çarşı-Namussuzluğa-Karşı-Değilmi
+> bigbrother-turkiye
+766,768c766,768
+< Sünger-Bob-Bebek-Bakıcısı
+< Sünger-Bob-Bebek-oyna
+< Söz-Verdik-Yapıyoruz
+---
+> SüngerBob-Bebek-Bakıcısı
+> SüngerBob-Bebek-oyna
+> Söbz-Verdik-Yapıyoruz
+772c772
+< Büyük-İnsan-Büyük-Kaptan
+---
+> Büyük-İnsan-Büyü-Kaptan
+777c777
+< Umut-Tan-Gecelerin-En-Güzeli
+---
+> Umut-Tan-Geceleri-En-Güzeli
+783c783
+< Söz-Verdik-Yapıyoruz
+---
+> Soez-Verdik-Yapıyoruz
+785c785
+< *Counter-Strike-Global-Offensive
+---
+> Counter-Strike-Global-Offensive
+788c788
+< *Nuevo-Video-Mica-Suarez
+---
+> Nuevo-Video-Mica-Suarez
+795,797c795,797
+< *fender-strato-caster
+< *city-that-never-sleeps
+< *good-old-man-hattan-days
+---
+> fender-strato-caster
+> city-that-never-sleeps
+> good-old-man-hattan-days
+801,802c801,802
+< muhteşem-yüzyıl-kösem
+< Şuanki-Hissettiğim
+---
+> muhteşem-yüz-yıl-kösem
+> Şuan-ki-Hissettiğim
+804c804
+< Şu-An-En-Çok-İstediğim-Şey
+---
+> ŞuAn-En-Çok-İstediğim-Şey
+809c809
+< şu-an-en-çok-istedigim
+---
+> şuan-en-çok-istedigim
+811c811
+< Şu-An-En-Çok-İstediğim-Avuçlarınızda
+---
+> ŞuAn-En-Çok-İstediğim-Avuçlarınızda
+814,815c814,815
+< *the-royal-phil-harmonic-orchestra
+< Şu-An-En-Çok-Istediğim
+---
+> the-royal-philharmonic-orchestra
+> ŞuAn-En-Çok-Istediğim
+818,819c818,819
+< Fener-bahçe-Ananın-Amı
+< Rojava-TilTemirde-Katliam-Var
+---
+> Fenerbahçe-Ananın-Amı
+> Rojava-Til-Temirde-Katliam-Var
+827,828c827,828
+< Beşik-taşa-Adanmış-Hayatlar
+< *salt-make-severy-thing-better
+---
+> Beşiktaşa-Adanmış-Hayatlar
+> salt-makes-everything-better
+834,835c834,835
+< *see-you-in-the-morning
+< *god-give-me-patience
+---
+> see-you-in-the-morning
+> god-give-me-patience
+837c837
+< besik-tas-sevgisi-sevgilerin-en-guzelidir
+---
+> besiktas-sevgisi-sevgilerin-en-guzelidir
+839c839
+< Bu-Günde-Her-zamanki-Gibi-Yerden
+---
+> Bu-Gün-de-Her-zaman-ki-Gibi-Yerden
+845c845
+< Eskiya-Dünyaya-Hükümdar-Olmaz
+---
+> Eskiya-Duenyaya-Huekuemdar-Olmaz
+852,853c852,853
+< *France-Under-Attack
+< *just-take-a-deep-breath
+---
+> France-Under-Attack
+> just-take-a-deep-breath
+857c857
+< *The-Vampire-Diaries
+---
+> The-Vampire-Diaries
+859c859
+< *SethCurryForMvpAndAllStar
+---
+> Seth-Curry-For-Mvp-And-AllStar
+861,862c861,862
+< Muhteşem-Yüzyıl-Kösem
+< Şu-An-En-Çok-İstediğimi
+---
+> Muhteşem-Yüz-yıl-Kösem
+> ŞuAn-En-Çok-İstediğimi
+865c865
+< 2016-da-Galata-saray
+---
+> 2016-da-Galatasaray
+870c870
+< *Souhaila-Ben-Lachhab
+---
+> Souhaila-Ben-Lachhab
+875c875
+< Türkiye-Baskanlık-İstiyor
+---
+> Tuerkiye-Baskanlık-İstiyor
+877c877
+< *no-need-for-four-leaf
+---
+> no-need-for-four-leaf
+879,882c879,882
+< Şu-an-En-Çok-İstedigim
+< Su-An-En-Cok-Istediğim
+< Bu-gün-de-Her-Zamanki-Gibi
+< Bir-Gün-Yalnız-Değildir
+---
+> Şuan-En-Çok-İstedigim
+> SuAn-En-Cok-Istediğim
+> Bugün-de-Her-Zaman-ki-Gibi
+> Bir-Guen-Yalnız-Değildir
+887c887
+< Derbide-Günay-Güvenc-Oynasın
+---
+> Derbide-Guenay-Guevenc-Oynasın
+891c891
+< Ankara-Büyükşehir-Belediyesi
+---
+> Ankara-Büyük-şehir-Belediyesi
+901c901
+< *travel-turkey-izmir
+---
+> travel-turkey-izmir
+905c905
+< *Trafico-21-feb-PVasco
+---
+> Trafico-21-feb-PVasco
+908c908
+< *Arrivederci-Juventus
+---
+> Arrivederci-Juventus
+912c912
+< Cizreye-Silopiye-SesVer
+---
+> Cizreye-Silopiye-Ses-Ver
+914,915c914,915
+< *bogazici-jazz-choir
+< 1725-Aralık-İndiraGandi-Haftası
+---
+> bogazici-jazz-choir
+> 1725-Aralık-İndira-Gandi-Haftası
+917c917
+< Yine-Lider-Beşik-taş
+---
+> Yine-Lider-Beşiktaş
+920c920
+< *Kurdish-People-Resist
+---
+> Kurdish-People-Resist
+925c925
+< GOEZTEPE-ahmetE-cakar
+---
+> GOEZTEPE-ahmet-Ecakar
+927c927
+< Futbol-Ne-Güzel-Sey
+---
+> Futbol-Ne-Guezel-Sey
+929c929
+< Sampiyon-GALATA-SARAY
+---
+> Sampiyon-GALATASARAY
+934c934
+< Kalpten-bir-teşekkür
+---
+> Kalptenbirteşekkür
+940,941c940,941
+< *goethe-institut-istanbul
+< *Victoria-Secret-Fashion-Sho
+---
+> goethe-institut-istanbul
+> Victoria-Secret-Fashion-Sho
+952,953c952,953
+< GÖZTEPE-ahmete-çakar
+< Bir-gün-değil-her-gün-BESİK-TAS
+---
+> GÖZTEPE-ahmeteç-akar
+> Bir-guen-değil-herguen-BESİKTAS
+974c974
+< Aslolan-GALATA-SARAY
+---
+> Aslolan-GALATASARAY
+978c978
+< Küçük-Çamlıca-Halı-Saha
+---
+> Küçük-Çamlıca-HalıSaha
+980c980
+< GALATA-SARAY-ASKI-BİR-BASKADIR
+---
+> GALATASARAY-ASKI-BİR-BASKADIR
+984,985c984,985
+< Pkk-Kürtleri-de-Vuruyor
+< KANADALI-BAŞ-BAKANI
+---
+> Pkk-Kuertleri-de-Vuruyor
+> KANADALI-BAŞBAKANI
+987,988c987,988
+< *Kerboran-Under-Attack
+< *Kurdish-people-resist
+---
+> Kerboran-Under-Attack
+> Kurdish-people-resist
+990,991c990,991
+< galata-saray-nereye-koşuyor
+< Samet-Marangoz-Istifa
+---
+> galatasaray-nereye-koşuyor
+> Samed-Marangoz-Istifa
+995c995
+< GÖZTEPE-ahmetE-çakar
+---
+> GÖZTEPE-ahmet-Eçakar
