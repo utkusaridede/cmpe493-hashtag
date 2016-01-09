@@ -14,11 +14,11 @@ consumer_secret = "MTJqSpL2gUiD7rTDpPbq6C37ujlvUnxVAraxenhZRltJ4gSJVf"
 class StdOutListener(StreamListener):
 
     def on_data(self, data):
-        print data
+        print (data)
         return True
 
     def on_error(self, status):
-        print status
+        print (status)
 
 
 if __name__ == '__main__':
