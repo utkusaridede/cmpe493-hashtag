@@ -8,7 +8,7 @@ c = conn.cursor()
 c.execute("SELECT * FROM TEXTS")
 rows = c.fetchall()
 tweetBodies = []
-ourChars = string.punctuation + "abcçdefgğhıijklmnoöprsştuüvyzABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ"
+ourChars = string.punctuation + "abcçdefgğhıijklmnoöprsştuüvyzABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ0123456789"
 
 def prepareFeatures(text):
 
@@ -24,10 +24,16 @@ def prepareFeatures(text):
 			for j in range(0,3):
 				if i+j < textSize:
 					if text[i+j] != "~":
-						f.write(text[i+j].lower())
+						if text[i+j] in "0123456789":
+								f.write(text[i+j])
+						else:
+							f.write(text[i+j].lower())
 					else:
 						if i+j+1 < textSize:
-							f.write(text[i+j+1].lower())
+							if text[i+j+1] in "0123456789":
+								f.write(text[i+j+1])
+							else:
+								f.write(text[i+j+1].lower())
 						else:
 							f.write("@")	
 				else:
@@ -51,16 +57,22 @@ def prepareFeatures(text):
 			f.write("m3=")
 			for j in range(0,3):
 				if i+j < textSize and text[i+j] != "~":
-					if text[i+j].islower():
-						f.write("x")
-					elif text[i+j].isupper():
-						f.write("X")
+					if text[i+j] in "0123456789":
+						f.write("#")
+					else:
+						if text[i+j].islower():
+							f.write("x")
+						elif text[i+j].isupper():
+							f.write("X")
 				elif i+j < textSize and text[i+j] == "~":
 					if i+j+1 < textSize:
-						if text[i+j+1].islower():
-							f.write("x")
-						elif text[i+j+1].isupper():
-							f.write("X")
+						if text[i+j+1] in "0123456789":
+							f.write("#")
+						else:
+							if text[i+j+1].islower():
+								f.write("x")
+							elif text[i+j+1].isupper():
+								f.write("X")
 					else:
 						f.write("@")
 				else:
@@ -72,33 +84,49 @@ def prepareFeatures(text):
 				f.write("@")
 			else:
 				if text[i-1] == "~":
-					if text[i-2].islower():
-						f.write("x")
-					elif text[i-2].isupper():
-						f.write("X")
+					if text[i-2] in "0123456789":
+						f.write("#")
+					else:
+						if text[i-2].islower():
+							f.write("x")
+						elif text[i-2].isupper():
+							f.write("X")
 				else:
-					if text[i-1].islower():
-						f.write("x")
-					elif text[i-1].isupper():
-						f.write("X")
-			if text[i].islower():
-				f.write("x")
-			elif text[i].isupper():
-				f.write("X")
+					if text[i-1] in "0123456789":
+						f.write("#")
+					else:	
+						if text[i-1].islower():
+							f.write("x")
+						elif text[i-1].isupper():
+							f.write("X")
+
+			if text[i] in "0123456789":
+				f.write("#")
+			else:	
+				if text[i].islower():
+					f.write("x")
+				elif text[i].isupper():
+					f.write("X")
 			if i+1 < textSize:
 				if text[i+1] == "~":
 					if i+2 < textSize:
-						if text[i+2].islower():
-							f.write("x")
-						elif text[i+2].isupper():
-							f.write("X")
+						if text[i+2] in "0123456789":
+							f.write("#")
+						else:	
+							if text[i+2].islower():
+								f.write("x")
+							elif text[i+2].isupper():
+								f.write("X")
 					else:
 						f.write("@")
 				else:
-					if text[i+1].islower():
-						f.write("x")
-					elif text[i+1].isupper():
-						f.write("X")
+					if text[i+1] in "0123456789":
+						f.write("#")
+					else:
+						if text[i+1].islower():
+							f.write("x")
+						elif text[i+1].isupper():
+							f.write("X")
 			else:
 				f.write("@")
 			f.write("\n")
