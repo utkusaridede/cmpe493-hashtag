@@ -68,7 +68,7 @@ def prepareFeaturesTest(text):
 			f.write("@")
 		f.write("\n")
 
-f = open('deneme2.txt', 'w')
+f = open('randomHashtag.txt', 'w')
 
 hashtag = "alinin2gözüayşesi"
 

@@ -2,7 +2,7 @@ import json
 import sqlite3
 import string
 
-f = open('deneme.txt', 'w')
+f = open('training_maxent.txt', 'w')
 conn = sqlite3.connect('tweets.db')
 c = conn.cursor()
 c.execute("SELECT * FROM TEXTS")
@@ -172,3 +172,6 @@ for row in rows:
 
 f.close()
 conn.close()
+
+# Creating Model
+call(["maxent", "training_maxent.txt", "-m", "model", "-i", "30", "--gis"])
