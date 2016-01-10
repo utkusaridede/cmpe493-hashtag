@@ -1,4 +1,9 @@
 
+from subprocess import call
+
+f = open('testMaxent.txt', 'w')
+g = open('testHashtag.txt', 'r')
+
 def prepareFeaturesTest(text):
 
 	textSize = len(text)
@@ -68,10 +73,13 @@ def prepareFeaturesTest(text):
 			f.write("@")
 		f.write("\n")
 
-f = open('randomHashtag.txt', 'w')
 
-hashtag = "alinin2gözüayşesi"
+lines = g.readlines()
 
-prepareFeaturesTest(hashtag)
+for line in lines:
+	line = line.replace("\n", "")
+	prepareFeaturesTest(line)
 
 f.close()
+
+call(["maxent", "-p", "testMaxent.txt", "-m", "../maxEntModel/model", "-o", "BIresults.txt"])

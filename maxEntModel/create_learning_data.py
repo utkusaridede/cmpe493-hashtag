@@ -1,6 +1,7 @@
 import json
 import sqlite3
 import string
+from subprocess import call
 
 f = open('training_maxent.txt', 'w')
 conn = sqlite3.connect('tweets.db')
