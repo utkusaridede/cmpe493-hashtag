@@ -6,51 +6,6 @@
 \end{figure}
 
 
-
-
-An ideal observer analysis: what words would be
-learned if statistical information is used optimally, and
-the learner assumes:
-a) Words are defined as statistically independent units in the
-input (i.e., randomly ordered, as in experimental stimuli)?
-b) Words are defined as units that help predict other units?
-- Is (a) sufficient? I.e., what kind of prior does the
-learner need?
-
-Unigram model: words are independent.
-
-Bigram model: words depend on other words
-
-
-Bayesian segmentation
-- Data: unsegmented corpus (transcriptions).
-- Hypotheses: sequences of word tokens.
-
-Good segmentations of naturalistic data can be found
-using fairly weak/domain-general prior assumptions.
-- Utterances are composed of discrete units (words).
-- Units tend to be short.
-- Some units occur frequently, most do not.
-- Units tend to come in predictable patterns.
-- More sophisticated use of information works better.
-- But still possible that simpler learner is enough to start
-learning other language-specific cues.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Methods
 
 Existing methods of word segmentation are unsuperwised language models. Researches claim that

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.11.8)  12 JAN 2016 22:22
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.11.8)  13 JAN 2016 00:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -170,7 +170,16 @@ LaTeX Warning: Label `fig:paper1' multiply defined.
 LaTeX Warning: Label `fig:paper1' multiply defined.
 
 
-LaTeX Warning: Label `fig:Tweet' multiply defined.
+LaTeX Warning: Label `fig:api' multiply defined.
+
+
+LaTeX Warning: Label `fig:model' multiply defined.
+
+
+LaTeX Warning: Label `fig:model' multiply defined.
+
+
+LaTeX Warning: Label `fig:model' multiply defined.
 
 )
 \openout1 = `sample.aux'.
@@ -257,29 +266,40 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 195.
 File: parser.png Graphic file (type QTm)
 
-<use  "parser.png" > [7]
-File: tweet.png Graphic file (type QTm)
- <use  "tweet.png" >
-File: text.png Graphic file (type QTm)
- <use  "text.png" >
-File: hashtag.png Graphic file (type QTm)
+<use  "parser.png" > [7] [8]
+File: streaming.png Graphic file (type QTm)
+ <use  "streaming.png" >
+File: textdatabase.png Graphic file (type QTm)
 
-<use  "hashtag.png" > [8]
+<use  "textdatabase.png" >
+Overfull \hbox (1.89pt too wide) in paragraph at lines 264--265
+ [][] 
+ []
+
+File: hashtagdatabase.png Graphic file (type QTm)
+<use  "hashtagdatabase.png" >
+File: Model.png Graphic file (type QTm)
+ <use  "Model.png" > [9] [10]
+File: train.png Graphic file (type QTm)
+ <use  "train.png" >
+File: mem.jpg Graphic file (type QTm)
+
+<use  "mem.jpg" > [11]
 Missing character: There is no ’ in font cmr10!
 
 No file sample.bbl.
-[9] (./sample.aux)
+[12] [13] (./sample.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1579 strings out of 493918
- 18179 string characters out of 6150563
- 79340 words of memory out of 5000000
- 4906 multiletter control sequences out of 15000+600000
+ 1587 strings out of 493918
+ 18273 string characters out of 6150563
+ 80340 words of memory out of 5000000
+ 4909 multiletter control sequences out of 15000+600000
  9172 words of font info for 33 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  39i,10n,23p,614b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sample.pdf (9 pages).
+Output written on sample.pdf (13 pages).

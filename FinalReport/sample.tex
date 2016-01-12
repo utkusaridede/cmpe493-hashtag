@@ -98,7 +98,7 @@ There are no paper or research about hashtag segmentation in Turkish. So that, t
 The problem of word segmentation has been studied in
 various contexts. 
 One of the most frequently used method for that is maximum matching, by Wong and Chan – 1996. Many approaches help us to handle unknown words and to get best proper answer in the case of ambiguity.
-Venkataraman\footnote{A. Venkataraman. A statistical model for word
+Venkataraman\footnote{A. Venkataraman, A statistical model for word
 discovery in transcribed speech. Computational Linguistics, 2001.} 
 uses unsupervised word segmentation techniques for finding words in automatically
 transcribed speech. Recently, Macherey et al.\footnote{ K. Macherey, A. M. Dai, D. Talbot, A. C. Popat, and
@@ -117,7 +117,7 @@ It is obvious that our project and their project are based on the same aspects l
 the first letter of each word, other leave the words all in lowercase or uppercase. Other use
 underscores “\_” to separate words, but it is not a common case because is wastes characters.
 Usually words are just juxtaposed without any evident or coherent use of separation signs
-and actually there are no common rules one can rely on to segment hashtags.''\footnote{ISTI@TREC Microblog track 2011: exploring the use of hashtag segmentation and text quality ranking, Giacomo Berardi, et al.}
+and actually there are no common rules one can rely on to segment hashtags.''\footnote{Giacomo Berardi, et al., ISTI@TREC Microblog track 2011: exploring the use of hashtag segmentation and text quality ranking}
 They demote their problem as word segmentation problem. The next figure represents the working principles of their system. That system uses the same learning data path as we have.
 
 \begin{figure}[htbp]
@@ -228,47 +228,104 @@ The properties of bayesian model;
 \end{itemize}
 
 \subsection{Our Method}
+We used "git" as a version control system. Our version history is as follows.
+
+\begin{center}
+\begin{tabular}{ | l | p{10cm} |}
+\hline
+Date & Action\\ \hline
+17 October, 2015 & Twitter API update is done.\\ \hline
+8 November, 2015 & Datasets are created and parsing them into database is completed.\\ \hline
+9 November, 2015 & First Report (Midterm Report) and database upgrades(tweet body and hashtags are seperated) are done.\\ \hline
+14 November, 2015 & Midterm Report is finished.\\ \hline
+15 December, 2015 & Hashtag verification is extended.\\ \hline
+16 December, 2015 & Random hashtags are created for test data.\\ \hline
+9 January, 2016 & Four features are implemented for learning data(Maximum Entropy Model).\\ \hline
+10 January, 2016 & Maximum Entropy Model is created with current learning data.\\ \hline
+12 January, 2016 & Final Project Report, video presentation, application and poster are added.\\ \hline
+13 January, 2016 & Final delivery is done.\\
+\hline
+\end{tabular}
+\end{center}
+
 When we started working on the project, there were no datasets for machine learning algorithm and some testing features.
-Very beginning of the project, we have decided to use "python" as main programming language, because we work on languages, that is, 
+Very beginning of the project, we have decided to use "python" as main programming language, because we work on languages, that is, contains a lot of text data. It is knowns off as scripting language. There are several scripting languages as perl, ruby etc. But in the case of size of community and finding efficient APIs, python has more power on them.
 
-We started to gather data from "Twitter" via their developer accounts. We create a Twitter account and sign up for developer account.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=4in]{streaming.png}
+\caption{Twitter Streaming API}\label{fig:api}
+\end{figure}
 
+We started to gather data from "Twitter" via their developer accounts. We create a Twitter account and sign up for developer account. We get developer keys and embed them into streaming Twitter API which is "tweepy" After that, we began to collect tweets in ".json" format which includes lots of information about tweets. We decided to extract tweet bodies and ID's.
 
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=7in]{textdatabase.png}
+\caption{Tweet body examples from training corpus}\label{fig:model}
+\end{figure}
 
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=4in]{hashtagdatabase.png}
+\caption{Tweet hashtag examples from training corpus}\label{fig:api}
+\end{figure}
 
+After extracting action, we gathered hashtags from bodies in the way of hashtag rules. Meanwhile extracting hashtags from bodies, we stored them (body, ID, hashtags) into database. We used "sqlite" as database tool.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=4in]{Model.png}
+\caption{The Way of Implementation}\label{fig:model}
+\end{figure}
+
+In order to create learning data, we used tweet bodies from our corpus. URLs, hashtags and some parts as well as "@" symbols are removed. We put them together if there is a posibility to have a meaningful parts. In order to mark word boundaries we used "~" as our marker. This action helped us to create useful learning data.
+
+After created learning data, we have decided to use four features for our model. Feature mechanism is unique for models. Features can be extended to improve our results. In addition to that, vocabulary of corpus may be used to get better results.
+
+Features are determined in terms of ease of implementation. Getting convenient results can be only improved on working systems.
+
+They are as follows;
+\begin{itemize}
+\item m1: It has current and next two characters as lower case. It includes "@" in the case of out of bounds.
+\item m2: It has current and next two characters as no lower or uppercase action. It includes "@" in the case of out of bounds.
+\item m3: It checks current and next two characters. It writes "x" for lowercase, "X" for uppercase and "@" for out of bounds situation.
+\item m4: It checks previous, currend and next characters. It writes "x" for lowercase, "X" for uppercase and "@" for out of bounds situation.
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=3in]{train.png}
+\caption{Our feature example from training corpus}\label{fig:model}
+\end{figure}
+
+In order to create test data, we get 1000 random hashtags from our database. We seperate words manually.
+
+\subsubsection{Maximum Entropy Model}
 
 The target of statistical modeling is to contruct a model that fits best accounts for training data. More spesifically, for given training data, we have probability distrubution. We want to build a model that is close to training probability as possible.
-We have used "Maximum Entropy Model" to decide boundaries of words. 
 
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=3in]{mem.jpg}
+\caption{Maximum Entropy Model Distribution}\label{fig:model}
+\end{figure}
+
+We have used "Maximum Entropy Model" to decide boundaries of words. The Maximum Entropy model can be introduced as; "The modeler can choose arbitrary feature functions in order to reflect the characteristic of the problem domain as faithfully as possible. The ability of freely incorporating various problem-specific knowledge in terms of feature functions gives ME models the obvious advantage over other learn paradigms, which often suffer from strong feature independence assumption (such as naive bayes classifier)."\footnote{Le, Zhang, Maximum Entropy Modeling Toolkit
+for Python and C++, 29th December 2004}
+
+ We created Model with training data via maximum-entropy model.
 
 \section{Results}
 We have collected the tweets from twitter. We tokenize tweets, normalize them and get 
 hashtags from them. We have stored all information related to tweets. That will help us to recognize training and test data. The training data will be the part of the current data.
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=3.5in]{tweet.png}
-\caption{Tweet example.}\label{fig:Tweet}
-\end{figure}
-
 Implementing a method to get hashtags and insert them database is 
 accomplished. There are two kind of table as well as "TEXTS" which contains unique tweet IDs
 and tweet text.
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=3.5in]{text.png}
-\caption{Text database table representation.}\label{fig:Tweet}
-\end{figure}
-
 The other one is "HASHTAGS" which contains tweet IDs and hashtags. Segmentation algorithm
 is almost done.
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=3.5in]{hashtag.png}
-\caption{Hashtag database table representation.}\label{fig:Hashtag}
-\end{figure}
 
 \section{Conclusion}
 We proposed a simple and effective unsupervised
