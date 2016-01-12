@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.11.8)  12 JAN 2016 16:07
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.11.8)  12 JAN 2016 19:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -164,6 +164,12 @@ LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 ) (./sample.aux
 
+LaTeX Warning: Label `fig:paper1' multiply defined.
+
+
+LaTeX Warning: Label `fig:paper1' multiply defined.
+
+
 LaTeX Warning: Label `fig:Tweet' multiply defined.
 
 )
@@ -220,37 +226,55 @@ Missing character: There is no ” in font cmr10!
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-Missing character: There is no ­ in font cmr10!
-Missing character: There is no ­ in font cmr10!
-Missing character: There is no ­ in font cmr10!
-Missing character: There is no ­ in font cmr10!
-Missing character: There is no ­ in font cmr10!
+Missing character: There is no – in font cmr10!
 
 [4]
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+File: paper1_2.png Graphic file (type QTm)
+ <use  "paper1_2.png" >
+File: paper1.png Graphic file (type QTm)
+ <use  "paper1.png" >
+Overfull \hbox (1.89pt too wide) in paragraph at lines 133--136
+ [][] 
+ []
+
+[5]
+File: paper3.png Graphic file (type QTm)
+ <use  "paper3.png" >
+Overfull \hbox (1.89pt too wide) in paragraph at lines 164--165
+ [][] 
+ []
+
+Missing character: There is no ­ in font cmr10!
+[6]
+Missing character: There is no ­ in font cmr10!
+Missing character: There is no ­ in font cmr10!
+Missing character: There is no ­ in font cmr10!
+Missing character: There is no ­ in font cmr10!
+Missing character: There is no ­ in font cmr10!
+ [7]
 File: tweet.png Graphic file (type QTm)
  <use  "tweet.png" >
 File: text.png Graphic file (type QTm)
  <use  "text.png" >
 File: hashtag.png Graphic file (type QTm)
  <use  "hashtag.png" >
-Underfull \vbox (badness 5077) has occurred while \output is active []
-
- [5]
 Missing character: There is no ’ in font cmr10!
-
+ [8]
 No file sample.bbl.
-[6] (./sample.aux)
+[9] (./sample.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1536 strings out of 493918
- 17618 string characters out of 6150563
+ 1559 strings out of 493918
+ 17855 string characters out of 6150563
  79340 words of memory out of 5000000
- 4877 multiletter control sequences out of 15000+600000
- 6899 words of font info for 25 fonts, out of 8000000 for 9000
+ 4890 multiletter control sequences out of 15000+600000
+ 9172 words of font info for 33 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 39i,9n,23p,437b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,10n,23p,614b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sample.pdf (6 pages).
+Output written on sample.pdf (9 pages).

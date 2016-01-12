@@ -1,3 +1,54 @@
+
+
+ISTI@TREC Microblog track 2011: exploring the use of
+hashtag segmentation and text quality ranking
+Giacomo Berardi, Andrea Esuli, Diego Marcheggiani, Fabrizio Sebastiani
+Istituto di Scienza e Tecnologie dell’Informazione
+Consiglio Nazionale delle Ricerche
+56124 Pisa, Italy
+firstname.lastname@isti.cnr.it
+
+
+
+
+Segmenting Web-Domains and Hashtags using Length
+Specific Models
+Sriram Srinivasan
+Yahoo! SDC
+Bangalore
+srsriram@yahoo-inc.com
+Sourangshu
+Bhattacharya
+Yahoo! Labs
+Bangalore
+sourangb@yahooinc.com
+Rudrasis Chakraborty
+Indian Statistical Institute
+Kolkata
+rudrasischa@ieee.org
+
+
+
+Proceedings of the Twenty-Fifth AAAI Conference on Artificial Intelligence
+A Simple and Effective Unsupervised Word Segmentation Approach
+Songjian Chen
+School of Information Science and Technology
+Sun Yat-sen University
+Guangzhou, 510006, China
+csjcg2@gmail.com
+Yabo Xu ∗ and Huiyou Chang
+School of Software
+Sun Yat-sen University
+Guangzhou, 510006, China
+{xuyabo,isschy}@mail.sysu.edu.cn
+
+
+
+
+
+
+
+
 https://en.wikipedia.org/wiki/Hashtag
 
 http://mashable.com/2013/10/08/what-is-hashtag/#yh9gf9JMCuqT
@@ -8,3 +59,11 @@ file:///home/utku/Downloads/3590-16404-1-PB.pdf
 
 http://jeremykun.com/2012/01/15/word-segmentation/
 
+
+
+
+
+
+
+P. Analytics. Twitter study, 2009. Retrieved 03 31, 2010, from
+http://www.scribd.com/doc/18548460/Pear-Analytics-Twitter-Study-August-2009.

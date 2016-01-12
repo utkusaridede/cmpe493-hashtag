@@ -7,14 +7,14 @@
 \contentsline {subsection}{\numberline {1.2}Motivation}{4}
 \contentsline {section}{\numberline {2}State of Art}{4}
 \contentsline {subsection}{\numberline {2.1}Related Papers and Projects}{4}
-\contentsline {subsubsection}{\numberline {2.1.1}A Simple and Effective Unsupervised Word Segmentation Approach}{4}
-\contentsline {subsubsection}{\numberline {2.1.2}Word Segmentation: Quick but not Dirty}{4}
-\contentsline {subsubsection}{\numberline {2.1.3}A Statistical Learning Algorithm for Word Segmentation}{4}
-\contentsline {subsubsection}{\numberline {2.1.4}Optimizing Chinese Word Segmentation for Machine Translation Performance}{4}
-\contentsline {subsection}{\numberline {2.2}Improvement of Our Project}{4}
-\contentsline {section}{\numberline {3}Methods}{4}
-\contentsline {section}{\numberline {4}Results}{5}
-\contentsline {section}{\numberline {5}Conclusion}{5}
-\contentsline {section}{\numberline {6}Future Work}{6}
-\contentsline {section}{\numberline {7}References}{6}
-\contentsline {section}{\numberline {8}Appendix}{6}
+\contentsline {subsubsection}{\numberline {2.1.1}Exploring the Use of Hashtag Segmentation and Text Quality Ranking}{4}
+\contentsline {subsubsection}{\numberline {2.1.2}Segmenting Web-Domains and Hashtags using Length Specific Models}{5}
+\contentsline {subsubsection}{\numberline {2.1.3}A Simple and Effective Unsupervised Word Segmentation Approach}{6}
+\contentsline {subsubsection}{\numberline {2.1.4}URL Segmentation}{7}
+\contentsline {subsection}{\numberline {2.2}Improvement of Our Project}{7}
+\contentsline {section}{\numberline {3}Methods}{7}
+\contentsline {section}{\numberline {4}Results}{8}
+\contentsline {section}{\numberline {5}Conclusion}{8}
+\contentsline {section}{\numberline {6}Future Work}{8}
+\contentsline {section}{\numberline {7}References}{9}
+\contentsline {section}{\numberline {8}Appendix}{9}

@@ -12,7 +12,7 @@
 Advisor: Ass. Prof. Arzucan Ozgur\\
 Co-Advisor: Arda Çelebi}
 \affiliation{Degree of Bachelor of Science \\
-Informational Retrival and Natural Language Processing, Department of
+Natural Language Processing and Informational Retrival, Department of
 Computer Engineering, Bogazici University, Istanbul
 Bebek 34342, TR} \email{utku.saridede@boun.edu.tr, sevket.topuz@boun.edu.tr}
 
@@ -86,20 +86,101 @@ There are several methods about word segmentation. Methods will be discussed in 
 The common problem about languages which have Latin alphabet system is deciding the word boundary. There are three types of word boundary type.
 
 First one is using space between words. We can not use space segmentation in our project, because hashtags do not contain spaces. 
-Second type is using uppercase letters at the beginning of words. It is the main seperation rule of our word segmentation. If hashtags have more than one word in it, we can check the uppercase letters to decide word boundaries. However, when it comes to real world the usage of letters in hashtags differs from the second type.
+Second type is using uppercase letters at the beginning of words or using underscore between the words. It is the main seperation rule of our word segmentation. If hashtags have more than one word in it, we can check the uppercase letters or underscores to decide word boundaries. However; when it comes to real world, the usage of letters in hashtags differs from the second type.
 The third one is using no uppercase or using nonsense uppercases in hashtags. Because of the natural languages' aspects, datasets contain the hashtags which are the third type of boundary type.
 
 For natural language processing, we have to determine the word's boundaries first. The method that we used tries to work on collected data to create a model that demonstrates the Turkish words' structures.
 
 \section{State of Art}
 \subsection{Related Papers and Projects}
+There are no paper or research about hashtag segmentation in Turkish. So that, the discussion will be based upon other versions of hashtag segmentation and as well as word segmentation.
+
+The problem of word segmentation has been studied in
+various contexts. 
+One of the most frequently used method for that is maximum matching, by Wong and Chan – 1996. Many approaches help us to handle unknown words and to get best proper answer in the case of ambiguity.
+Venkataraman\footnote{A. Venkataraman. A statistical model for word
+discovery in transcribed speech. Computational Linguistics, 2001.} 
+uses unsupervised word segmentation techniques for finding words in automatically
+transcribed speech. Recently, Macherey et al.\footnote{ K. Macherey, A. M. Dai, D. Talbot, A. C. Popat, and
+F. Och. Language-independent compound splitting with morphological operations. In ACL HLT, 2011.} 
+use unsupervised techniques for word segmentation, highlighting
+the application of this technique to multiple European languages.
+The work of Wang et al.\footnote{K. Wang, C. Thrasher, and B.-J. P. Hsu. Web scale
+nlp: a case study on url word breaking. In Proceedings of the 20th international conference on World wide web, New York, NY, USA, 2011. ACM.}
+use unsupervised techniques with multiple corpora for word segmentation.
+
+\subsubsection{Exploring the Use of Hashtag Segmentation and Text Quality Ranking}
+A common practice in tweets is to identify their subject topic by means of a hashtag. In this project, they have given information that a hashtag cannot contain white spaces. They also noticed that people usually concatenate more words together, to form a short phrase. They also mentioned that the distinct words composing a hashtag is not a simple task to be automatized. 
+
+It is obvious that our project and their project are based on the same aspects like; 
+``Some users identify the distinct words using a CamelCase style, i.e., capitalizing
+the first letter of each word, other leave the words all in lowercase or uppercase. Other use
+underscores “\_” to separate words, but it is not a common case because is wastes characters.
+Usually words are just juxtaposed without any evident or coherent use of separation signs
+and actually there are no common rules one can rely on to segment hashtags.''\footnote{ISTI@TREC Microblog track 2011: exploring the use of hashtag segmentation and text quality ranking, Giacomo Berardi, et al.}
+They demote their problem as word segmentation problem. The next figure represents the working principles of their system. That system uses the same learning data path as we have.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=5in]{paper1_2.png}
+\caption{Modules of System}\label{fig:paper1}
+\end{figure}
+
+They used the words distribution model and a hashtag, the hashtag segmentation module converts the hashtag to a vector of words composing them. Finally, the last figure related to that paper is about how big dataset's size is.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=7in]{paper1.png}
+\caption{Some statistics from the corpus and the subsets that is selected for indexing,
+the total number of tweets is divided in effective tweets, retweets and null tweets. 
+The hashtags column indicates the number of unique hashtags.}\label{fig:paper1}
+\end{figure}
+
+\subsubsection{Segmenting Web-Domains and Hashtags using Length Specific Models}
+In this project, they study two applications in the internet domain. First application
+is the web domain segmentation which is crucial for monetization
+of broken URLs. Secondly, they propose and study a novel application of twitter hashtag 
+segmentation for increasing recall on twitter searches. They remark that existing methods for
+word segmentation use unsupervised language models. 
+
+They have realized that when using multiple corpora, the joint probability model from multiple corpora performs significantly better
+than the individual corpora during the project. Motivated by this, they propose
+weighted joint probability model, with weights specific
+to each corpus. Finally, they observed that length of segments is an important parameter for word segmentation.
+The length specific models further improve segmentation accuracy
+over supervised probability models.
+
 \subsubsection{A Simple and Effective Unsupervised Word Segmentation Approach}
-\subsubsection{Word Segmentation: Quick but not Dirty}
-\subsubsection{A Statistical Learning Algorithm for Word Segmentation}
-\subsubsection{Optimizing Chinese Word Segmentation for Machine Translation Performance}
+In this paper, they propose a new unsupervised algorithm to achieve word segmentation. The main idea of their approach
+is a novel word induction criterion which is similar with second paper. As they explain; ``We devise a method
+to derive exterior word boundary information from the
+link structures of adjacent word hypotheses and incorporate
+interior word boundary information to complete
+the model.''\footnote{A Simple and Effective Unsupervised Word Segmentation Approach, Songjian Chen, Yabo Xu, Huiyou Chang}
+They have also worked with Chinese datasets to claim their approach. If it is working with even difficult language systems, it will be achieved with other systems. They also reported that their approach is simpler and more efficient than the Bayesian methods and more suitable for real-world applications.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=7in]{paper3.png}
+\caption{Illustrations of constructing the link structures of word hypotheses and calculating the exterior boundary values.}\label{fig:paper1}
+\end{figure}
+
+\subsubsection{URL Segmentation}
+Another approach is word segmentation of URL links. To think about the word segmentation and
+recognition problem for URL links, reasearchers adopt some basic principles from rule­based
+approach.
+
+The dictionary should have sufficient amount of word entries. However, the occurence
+of compound words makes it very difficult to match every component string exactly with the
+dictionary entries. Evaluation of the hashtag segmentation has started to be improved with search engine
+improvements of Twitter.
+
+Finite state transducer is an approach for title token base URL segmentation. It splits and segments according to previous-seen web page title simultaneously. For example, URL link includes "cs" that might correspond to "computer science" in many training page's title. If "cs" is encountered in the testing corpus, it is automatically expanded to "computer science". The tranducer has several rules that give score. This score can be obtain by certain moves which match or skip letters in the tokens of title with corresponding letters. Expansion can be valid if it covers all letters in the segment.
 
 
 \subsection{Improvement of Our Project}
+In our project, there are several improvements according to local and global researches.
+
 
 \section{Methods}
 We have tried to discourse manly with 3 methods. Hashtag segmentation can be generally defined as word boundry detection. Because of this, we
@@ -134,7 +215,7 @@ to create machine learning system.
 We have collected the tweets from twitter. We tokenize tweets, normalize them and get 
 hashtags from them. We have stored all information related to tweets. That will help us to recognize training and test data. The training data will be the part of the current data.
 
-\begin{figure}
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=3.5in]{tweet.png}
 \caption{Tweet example.}\label{fig:Tweet}
@@ -144,7 +225,7 @@ Implementing a method to get hashtags and insert them database is
 accomplished. There are two kind of table as well as "TEXTS" which contains unique tweet IDs
 and tweet text.
 
-\begin{figure}
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=3.5in]{text.png}
 \caption{Text database table representation.}\label{fig:Tweet}
@@ -153,7 +234,7 @@ and tweet text.
 The other one is "HASHTAGS" which contains tweet IDs and hashtags. Segmentation algorithm
 is almost done.
 
-\begin{figure}
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=3.5in]{hashtag.png}
 \caption{Hashtag database table representation.}\label{fig:Hashtag}
