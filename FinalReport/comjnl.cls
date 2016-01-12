@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}[2009/07/27]
 \ProvidesClass{comjnl}
-          [2015/11/08 v0.1c The Computer Thisis]
+          [2015/11/08 v0.1c The Computer Thisis]          
 \def\CJ@err#1{\ClassError{cj}{#1}\@eha}
 \def\CJ@warn#1{\ClassWarningNoLine{cj}{#1}}
 \DeclareOption{10pt}{}
@@ -144,8 +144,8 @@
       \fi
       \setcounter{affil}{1}%
       \CJ@noaffil
-      \renewcommand\thefootnote{\@fnsymbol\c@footnote}%
-      \global\c@footnote\@ne
+      %\renewcommand\thefootnote{\@fnsymbol\c@footnote}%
+      %\global\c@footnote\@ne
 \ifnum\theremaffil>1 \typeout{caffil>1}
       \setcounter{footnote}{\theremaffil}
      \else \typeout{caffil not> 1}
@@ -426,12 +426,12 @@
     \def\@svsechd{#4{\hskip #1\relax #5}}%
   \fi
   \@xsect{#3}}
-\def\journalname{The Computer Science}
+\def\journalname{Saridede, Topuz}
 \def\copyrightname{Bogazici University Press}
 \def\andname{}
 \def\ppname{}
 \def\numbername{}
-\def\volumename{Vol.1}
+\def\volumename{}
 
 %extra macros
 

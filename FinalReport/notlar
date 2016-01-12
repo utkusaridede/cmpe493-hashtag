@@ -1,3 +1,50 @@
+
+\begin{figure}
+\centering
+\includegraphics[width=3.5in]{method.png}
+\caption{Example of title token based finite state transducer (FST). Explanation of the use of hashtag segmentation and text quality ranking. Rules for the title expansion.}\label{fig:Tweet}
+\end{figure}
+
+Methods
+
+Existing methods of word segmentation are unsuperwised language models. Researches claim that
+using multiple corpora, the joint probability model from multiple corpora performs significantly 
+better than the individual corpora. Weighted joint probability model with weights is specific to each corpus. Decent approach is to train the weights in a supervised manner using max-margin methods, that is, a machine learning method to make a decision about the boundries of words.
+The supervised probability models improve segmentation accuracy over joint probability models. 
+Researchers observe that length of segments is an important parameter for word segmentation, and 
+incorporating length-specific weights into our model supports the current model.
+However the length specific models further improve segmentation accuracy over supervised 
+probability models. Another model is maximum-entropy model. Discussion will be held next sections.
+
+All mentioned models try to solve the problems with dynamic programming algorithms. The supervised length specific models have significantly more advencement over unsupervised single corpus and joint probability models. Segmentation of hashtags result in significant improvement in recall on searches for twitter trends.
+
+The machine learning side of the computer science aims to investigate human related behaviours by definition. Computers should be able to learn how to analyze data from background information. There are similar researches about segmentation of sentences, and especially non-spaced words. The motivation of project comes from URL segmentation. URL segmentation brings same study to mind with the
+evoluation of technology. The changes in the social media trends lead to extended works. The amount of Web page links are like god's creatures. That is, Web has a link inheritance that is increasing over time. Collecting data from Web links is somehow stable. However, hashtag case needs some time to be imporved and had data inheritance.
+
+
+
+
+
+
+
+
+
+
+
+
+% First character big
+\font\Cal=cmsy10 at 25pt
+\textwidth=.5\textwidth
+\def\pstart#1{\noindent\smash{\lower3ex\hbox{\llap{\Cal#1}}\hskip-.2em}
+  \parshape=3 1.5em \dimexpr\hsize-1.5em 2em \dimexpr\hsize-2em 0pt \hsize}
+%
+\pstart
+
+
+
+
+
+
 ``special bidder'' : tirnak isareti
 
 \cite{gelenbe06}
