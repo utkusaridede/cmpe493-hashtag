@@ -179,37 +179,67 @@ Finite state transducer is an approach for title token base URL segmentation. It
 
 
 \subsection{Improvement of Our Project}
-In our project, there are several improvements according to local and global researches.
+In our project, there are several improvements according to local and global researches. Firstly, as we mentioned before, it is the first project that introduces a platform for segmentation of Twitter hashtags in Turkish. We also gathered datasets from Twitter and parse them into "tweet body" and "hashtags". We have used maximum entropy model to separate words. We have also imlement an application feature to embed project into any platform. If we get hashtags, we can return the segmented version of them
 
 
 \section{Methods}
-We have tried to discourse manly with 3 methods. Hashtag segmentation can be generally defined as word boundry detection. Because of this, we
-start with detection of the word boundry. There are two feature­based learning methods,
-Conditional Random Fields (CRFs)(Laerty et al.,2001) and Maximum Entropy (MaxEnt).
-CRFs can represent the uncommon parts of the information as elements furthermore, are great at
-displaying grouping marking problems. MaxEnt is extremely compelling at learning with a high
-assortment of components, without agonizing over the multifaceted nature of the model. Hidden
-Markov Model is a simplistic approach for word segmentation. It helps us to built character
-trigrams. It tries to catch boundary characters that are current and previous ones. Peter Norvig's
-implementation can be used for word bigrams.
+\subsection{Current Methods}
+We will discuss two types of models and both models focus on words, not boundaries. And they also use little or no domain-specific information.
 
-Manual annotation is time consuming task and it limits the amount of trainig data that can be
-created. We try to achieve utilizing data to create training sets for hashtag segmentation. Synthetic
-hashtags by concatenating the words in tweets can also be used for training data because word
-boundries are known. To use concatenating the words in tweets as training dataset, we need to filter
-non­word tokens. If tweets include non­word token in the beginnig or end of the text, it can be
-removed and other words can be used as trainig data. On the other side, if a non­word token appear
-in the middle of the text, the tweet is dicarded because non­word token ib the middle of the tweet
-may distort the word order. The word order is important point of trainig data.
+\subsubsection{Parser Model}
+No special mechanism is needed for word segmentation; it results from interaction of perception
+and internal representation. Humans are not tracking boundary statistics; segmentation results from general properties of attention, perception, and memory.
 
-Word boundry detectiton and word segmentation is very important for Chinese words segmentation. A good research about Chinese word segmentation can be found out in Wu and Tseng's paper. A Chinese senteces do not
-include delimiters to seperate words. It includes combined of a string of characters. Netural
-networks and lazy learning (just-in-time learning) approaches are methods that are used in word segmentation.
-Processing of the examples are collected until a clear request for information is received. When the information recieved, the databse search is completed according to amount of the distance that is most related to query.
+Initially, input is perceived and chunked randomly into units;
+\begin{itemize}
+\item Units are encoded in memory.
+\item Memory decays rapidly.
+\item Uncommon units disappear, common units are reinforced.
+\item Units in memory influence perception and encoding of new input (input is segmented into existing units).
+\end{itemize}
 
-We can use each character of training data to represent one function of learning system. Some
-features should be determined and each character should be examined according to these features
-to create machine learning system.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=2in]{parser.png}
+\caption{Parser System}\label{fig:parser}
+\end{figure}
+
+The properties of parser model;
+\begin{itemize}
+\item No explicit tracking of statistics is needed.
+\item Works on experimental stimuli but might need modifications for realistic language.
+\item Probably would work in many domains.
+\end{itemize}
+
+\subsubsection{Bayesian Model}
+Bayesian model has two varieties in the case of words, that is, whether they are independent from eachother or dependent on other words. If they are independent, we are talking about unigram models. However, if words are dependent on others from same corpus, we are talking about bigram models.
+
+The working data is unsegmented corpus for bayesian models. This hypotheses works on sequences of word tokens.
+It introduces optimal solution with highest prior probability.
+
+The properties of bayesian model;
+\begin{itemize}
+\item Good segmentations of naturalistic data can be found using fairly weak/domain-general prior assumptions.
+\item Utterances are composed of discrete words.
+\item Units tend to be short.
+\item Some units occur frequently, most do not.
+\item Units tend to come in predictable patterns.
+\item More sophisticated use of information works better.
+\end{itemize}
+
+\subsection{Our Method}
+When we started working on the project, there were no datasets for machine learning algorithm and some testing features.
+Very beginning of the project, we have decided to use "python" as main programming language, because we work on languages, that is, 
+
+We started to gather data from "Twitter" via their developer accounts. We create a Twitter account and sign up for developer account.
+
+
+
+
+
+The target of statistical modeling is to contruct a model that fits best accounts for training data. More spesifically, for given training data, we have probability distrubution. We want to build a model that is close to training probability as possible.
+We have used "Maximum Entropy Model" to decide boundaries of words. 
+
 
 \section{Results}
 We have collected the tweets from twitter. We tokenize tweets, normalize them and get 

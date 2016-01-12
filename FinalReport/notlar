@@ -5,6 +5,52 @@
 \caption{Example of title token based finite state transducer (FST). Explanation of the use of hashtag segmentation and text quality ranking. Rules for the title expansion.}\label{fig:Tweet}
 \end{figure}
 
+
+
+
+An ideal observer analysis: what words would be
+learned if statistical information is used optimally, and
+the learner assumes:
+a) Words are defined as statistically independent units in the
+input (i.e., randomly ordered, as in experimental stimuli)?
+b) Words are defined as units that help predict other units?
+- Is (a) sufficient? I.e., what kind of prior does the
+learner need?
+
+Unigram model: words are independent.
+
+Bigram model: words depend on other words
+
+
+Bayesian segmentation
+- Data: unsegmented corpus (transcriptions).
+- Hypotheses: sequences of word tokens.
+
+Good segmentations of naturalistic data can be found
+using fairly weak/domain-general prior assumptions.
+- Utterances are composed of discrete units (words).
+- Units tend to be short.
+- Some units occur frequently, most do not.
+- Units tend to come in predictable patterns.
+- More sophisticated use of information works better.
+- But still possible that simpler learner is enough to start
+learning other language-specific cues.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Methods
 
 Existing methods of word segmentation are unsuperwised language models. Researches claim that
@@ -20,6 +66,67 @@ All mentioned models try to solve the problems with dynamic programming algorith
 
 The machine learning side of the computer science aims to investigate human related behaviours by definition. Computers should be able to learn how to analyze data from background information. There are similar researches about segmentation of sentences, and especially non-spaced words. The motivation of project comes from URL segmentation. URL segmentation brings same study to mind with the
 evoluation of technology. The changes in the social media trends lead to extended works. The amount of Web page links are like god's creatures. That is, Web has a link inheritance that is increasing over time. Collecting data from Web links is somehow stable. However, hashtag case needs some time to be imporved and had data inheritance.
+
+
+
+
+
+Boundary prediction methods usually used with local statistics
+to decide the boundary between two language units located in local store. The representative
+examples involve Ando-Lee Criterion (Ando and Lee 2000),
+Mutual Information (Sun, Shen, and Tsou 1998) and
+Branching Entropy (Jin and Tanaka-Ishii 2006). Fleck (2008) built an algorithm called
+WordEnds. It became a boundary classifier with the dixit
+boundary clues, then used it to mark word boundaries.
+Zhikov, Takamura, and Okumura (2010) buit
+an powerful algorithm combining the strength of Minimum
+Description Length review and local statistics Branching Entropy.
+High performance in the case of accuracy and speed had been seen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We have tried to discourse manly with 3 methods. Hashtag segmentation can be generally defined as word boundry detection. Because of this, we
+start with detection of the word boundry. There are two feature­based learning methods,
+Conditional Random Fields (CRFs)(Laerty et al.,2001) and Maximum Entropy (MaxEnt).
+CRFs can represent the uncommon parts of the information as elements furthermore, are great at
+displaying grouping marking problems. MaxEnt is extremely compelling at learning with a high
+assortment of components, without agonizing over the multifaceted nature of the model. Hidden
+Markov Model is a simplistic approach for word segmentation. It helps us to built character
+trigrams. It tries to catch boundary characters that are current and previous ones. Peter Norvig's
+implementation can be used for word bigrams.
+
+Manual annotation is time consuming task and it limits the amount of trainig data that can be
+created. We try to achieve utilizing data to create training sets for hashtag segmentation. Synthetic
+hashtags by concatenating the words in tweets can also be used for training data because word
+boundries are known. To use concatenating the words in tweets as training dataset, we need to filter
+non­word tokens. If tweets include non­word token in the beginnig or end of the text, it can be
+removed and other words can be used as trainig data. On the other side, if a non­word token appear
+in the middle of the text, the tweet is dicarded because non­word token ib the middle of the tweet
+may distort the word order. The word order is important point of trainig data.
+
+Word boundry detectiton and word segmentation is very important for Chinese words segmentation. A good research about Chinese word segmentation can be found out in Wu and Tseng's paper. A Chinese senteces do not
+include delimiters to seperate words. It includes combined of a string of characters. Netural
+networks and lazy learning (just-in-time learning) approaches are methods that are used in word segmentation.
+Processing of the examples are collected until a clear request for information is received. When the information recieved, the databse search is completed according to amount of the distance that is most related to query.
+
+We can use each character of training data to represent one function of learning system. Some
+features should be determined and each character should be examined according to these features
+to create machine learning system.
+
 
 
 
@@ -102,32 +209,3 @@ Treatment 3 & 0.0009271 & 0.296 \\
 $E = mc^2$
 \end{theorem}
 \end{frame}
-
-
-
-
-
-
-
-
-
-All access points or modems have at least one broadcast address to receive 
-common messages from users. So that, our broadcast address for that chat 
-program was “192.168.144.255”. 
-
-- The steps involved in establishing a socket on the server side are as follows:
-- Create a socket with the socket() system call
-- Bind the socket to an address using the bind() system call. For a server socket on the Internet, an address consists of a port number on the host machine.
-- Listen for connections with the listen() system call
-- Accept a connection with the accept() system call. This call typically blocks until a client connects with the server.
-- Send and receive data
-
-Twitter is the latest social networking tool which affects everything related to the person.
-Twitter allows its users to write at most 140 character long update, it is known off as 
-``tweet''. In this research, analyzing segmentation of tweets is our main objective. There are
-several researches in English, but not that much in Turkish. Study on the Turkish corpus is
-somehow hard to handle, because of the natural language of tools. The usage of the hashtags
-differ in country to country, that is, some countries do not know off proper usage of hashtag.
-Having more than one word in the hashtag or lapsus calami are misusage and prevent researhes 
-to work properly. The other part of the project is analyzing hashtags in the way of linguistics.
-Analyzed corpus will give more information about related countries.

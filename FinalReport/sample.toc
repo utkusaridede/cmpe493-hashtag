@@ -13,8 +13,12 @@
 \contentsline {subsubsection}{\numberline {2.1.4}URL Segmentation}{7}
 \contentsline {subsection}{\numberline {2.2}Improvement of Our Project}{7}
 \contentsline {section}{\numberline {3}Methods}{7}
+\contentsline {subsection}{\numberline {3.1}Current Methods}{7}
+\contentsline {subsubsection}{\numberline {3.1.1}Parser Model}{7}
+\contentsline {subsubsection}{\numberline {3.1.2}Bayesian Model}{8}
+\contentsline {subsection}{\numberline {3.2}Our Method}{8}
 \contentsline {section}{\numberline {4}Results}{8}
 \contentsline {section}{\numberline {5}Conclusion}{8}
-\contentsline {section}{\numberline {6}Future Work}{8}
+\contentsline {section}{\numberline {6}Future Work}{9}
 \contentsline {section}{\numberline {7}References}{9}
 \contentsline {section}{\numberline {8}Appendix}{9}
