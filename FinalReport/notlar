@@ -6,6 +6,32 @@
 \end{figure}
 
 
+
+
+
+\begin{center}
+\begin{tabular}{| l | l | p{10cm} |}
+\hline
+Precision & 75.51\\ \hline
+Recall & 64.80\\ \hline
+F-Measure & 69.75\\ \hline
+Accuracy & 49.57\\ \hline
+\# of Unique Tweets & 1.169.282\\ \hline
+\# of Unique Hashtags & 24.003\\
+\hline
+\end{tabular}
+\end{center}
+
+
+
+
+
+
+
+
+
+
+
 Methods
 
 Existing methods of word segmentation are unsuperwised language models. Researches claim that

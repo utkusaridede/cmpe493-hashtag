@@ -299,7 +299,7 @@ They are as follows;
 \caption{Our feature example from training corpus}\label{fig:model}
 \end{figure}
 
-In order to create test data, we get 1000 random hashtags from our database. We seperate words manually.
+In order to create test data, we get 1000 random hashtags from our database. We seperate words manually. Finally, we have one original test data and one manually seperated test data to calculate precision, recall, f-measure and accuracy.
 
 \subsubsection{Maximum Entropy Model}
 
@@ -307,35 +307,54 @@ The target of statistical modeling is to contruct a model that fits best account
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=3in]{mem.jpg}
+\includegraphics[width=4in]{mem.jpg}
 \caption{Maximum Entropy Model Distribution}\label{fig:model}
 \end{figure}
 
 We have used "Maximum Entropy Model" to decide boundaries of words. The Maximum Entropy model can be introduced as; "The modeler can choose arbitrary feature functions in order to reflect the characteristic of the problem domain as faithfully as possible. The ability of freely incorporating various problem-specific knowledge in terms of feature functions gives ME models the obvious advantage over other learn paradigms, which often suffer from strong feature independence assumption (such as naive bayes classifier)."\footnote{Le, Zhang, Maximum Entropy Modeling Toolkit
 for Python and C++, 29th December 2004}
 
- We created Model with training data via maximum-entropy model.
+We created Model with training data via maximum-entropy model. We create features for original test data. After that, we give that data to maximum-entropy tool and in terms of results from tool, hashtags are segmented. We added segmented hashtags which are calculated by tool and manually segmented hashtags to text file. It helps us to calculate precision, recall, f-measure and accuracy of segmentation method.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=5in]{Exetool.png}
+\caption{Methods of Segmentation}\label{fig:model}
+\end{figure}
 
 \section{Results}
-We have collected the tweets from twitter. We tokenize tweets, normalize them and get 
-hashtags from them. We have stored all information related to tweets. That will help us to recognize training and test data. The training data will be the part of the current data.
+In brief, we have collected the tweets from twitter. We tokenize tweets, normalize them and get 
+hashtags from them. We have stored all information related to tweets. That will help us to recognize training and test data. The training and the test data were the part of the current data. We created model from learning data and boundaries of words are decided. At the end of the progression we calculated the measurements of result.
 
-Implementing a method to get hashtags and insert them database is 
-accomplished. There are two kind of table as well as "TEXTS" which contains unique tweet IDs
-and tweet text.
+\begin{center}
+\begin{tabular}{| l | l | p{10cm} |}
+\hline
+Precision & 75.51\\ \hline
+Recall & 64.80\\ \hline
+F-Measure & 69.75\\ \hline
+Accuracy & 49.57\\ \hline
+\# of Unique Tweets & 1.169.282\\ \hline
+\# of Unique Hashtags & 24.003\\
+\hline
+\end{tabular}
+\end{center}
 
-The other one is "HASHTAGS" which contains tweet IDs and hashtags. Segmentation algorithm
-is almost done.
+\section{Discussion and Conclusion}
+\subsection{Discussion}
+There are several methods to achieve word segmentation. As we mentioned, Maximum Entropy Model is used. We may use different methods, but we decided max-ent that gives us best results.
 
-\section{Conclusion}
-We proposed a simple and effective unsupervised
-word segmentation approach. The criterion incorporates
-boundary information to model words.
+\subsection{Conclusion}
+We have researched our project and get respectable amount of results. Our results are good enough but it can always be improved by computer science developers. It is an open source project and we hope it will help researches in natural language processing field.
 
 \section{Future Work}
-We decided to improve our segmentation algorithm. Features of the words will be dicussed. Training and test
-datasets will be prepared. Every word in the training data will be used to improve machine
-learning power of our project. Later future works will be consulted to Prof. OZGUR.
+Future works to increase segmentation results can be as follows;
+\begin{itemize}
+\item Vocabulary of corpus feature can be added.
+\item More than four features can be added.
+\item The size of corpus can be extended.
+\item The irrelevant data can be removed from corpus.
+\item The hashtags which contain foreign words can be removed.
+\end{itemize}
 
 \section{References}
 - Berardi, Giacomo; Esuli, Andrea; Marcheggiani, Diego and Sebastiani, Fabrizio. Exploring the use of hashtag segmentation and text quality ranking 
