@@ -1,10 +1,13 @@
 \documentclass[12pt]{comjnl}
 
 \usepackage{amsmath}
+\usepackage{listings}
+
 
 %\copyrightyear{2009} \vol{00} \issue{0} \DOI{000}
 \linespread{1.5}
 
+\lstset{basicstyle=\ttfamily,columns=fullflexible}
 \begin{document}
 
 \title[Hashtag Segmentation of Conversational Tweets in Turkish]{Hashtag Segmentation of Conversational Tweets in Turkish, Modelling Segmentation Approach Final Report}
@@ -353,41 +356,44 @@ Future works to increase segmentation results can be as follows;
 \item More than four features can be added.
 \item The size of corpus can be extended.
 \item The irrelevant data can be removed from corpus.
-\item The hashtags which contain foreign words can be removed.
+\item The tweets which contain foreign words as hashtags can be removed.
+\item More efficient application can be developed.
 \end{itemize}
 
 \section{References}
-- Berardi, Giacomo; Esuli, Andrea; Marcheggiani, Diego and Sebastiani, Fabrizio. Exploring the use of hashtag segmentation and text quality ranking 
+ \begin{thebibliography}{1}
+
+\bibitem{notes} Giacomo Berardi, Andrea Esuli, Diego Marcheggiani, Fabrizio Sebastiani {\em ISTI@TREC Microblog track 2011: exploring the use of hashtag segmentation and text quality ranking}
 Istituto di Scienza e Tecnologie dell’Informazione Consiglio Nazionale delle Ricerche 56124 Pisa, Italy
 
-- Kan, Min-Yen, Web Page Classification
+\bibitem{notes} Sriram Srinivasan, Rudrasis Chakraborty {\em Segmenting Web-Domains and Hashtags using Length Specific Models} Indian Statistical Institute
 
-- Bansal, P., Bansal, R. and Varma V. 2015. Towards
-Deep Semantic Analysis Of Hashtags.
+\bibitem{notes} Songjian Chen, Yabo Xu, Huiyou Chang {\em Proceedings of the Twenty-Fifth AAAI Conference on Artificial Intelligence, A Simple and Effective Unsupervised Word Segmentation Approach} School of Information Science and Technology
+Sun Yat-sen University Guangzhou, 510006, China
 
-- Berardi, G. and Esuli, A. and Marcheggiani, D. and
-Sebastian, F. 2011. ISTI@TREC Microblog track
-2011: exploring the use of hashtag segmentation
-and text quality ranking.
+\bibitem{notes} P. Analytics {\em Twitter study, 2009} Retrieved 03 31, 2010, from http://www.scribd.com/doc/18548460/Pear-Analytics-Twitter-Study-August-2009.
 
-- Chen, S. and Xu Y. and Chang, H. 2012. A Sim-
-ple and Effective Unsupervised Word Segmentation
-Approach. Proceedings of the Twenty-Fifth AAAI
-Conference on Artificial Intelligence
+\bibitem{notes} Berardi, Giacomo; Esuli, Andrea; Marcheggiani, Diego and Sebastiani, Fabrizio. {\em Exploring the use of hashtag segmentation and text quality ranking  Istituto di Scienza e Tecnologie dell’Informazione Consiglio Nazionale delle Ricerche} 56124 Pisa, Italy
 
-- Xue, N. 2003. Chinese word segmentation as charac-
-ter tagging.. International Journal of Computational
-Linguistics and Chinese Language Processing vol-
-ume 8(1)
 
-- Wong, P and Chan, C. 1996. Chinese word segmenta-
-tion based on maximum matching and word binding
-force.
+\bibitem{notes} Bansal, P., Bansal, R. and Varma V. 2015. {\em Towards Deep Semantic Analysis Of Hashtags.}
+
+\bibitem{notes} Xue, N. 2003. {\em Chinese word segmentation as character tagging. International Journal of Computational
+Linguistics and Chinese Language Processing volume 8}
+
+\bibitem{notes} Rebecca Hiscott. 2013. {\em The Beginner's Guide to the Hashtag}
+
 \nocite{*}
-
-\bibliographystyle{compj}
-\bibliography{ModellingBidders}
-
+\end{thebibliography}
+\bibliographystyle{abbrv}
 \section{Appendix}
+
+\lstinputlisting[language=Python]{Codes/twitter_streaming.py}
+\lstinputlisting[language=Python]{Codes/write_to_database.py}
+\lstinputlisting[language=Python]{Codes/random_tweet.py}
+\lstinputlisting[language=Python]{Codes/create_learning_data.py}
+\lstinputlisting[language=Python]{Codes/create_model.py}
+\lstinputlisting[language=Python]{Codes/prepare_test.py}
+\lstinputlisting[language=Python]{Codes/segment_hashtags.py}
 
 \end{document}
